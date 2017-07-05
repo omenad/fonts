@@ -1,0 +1,18 @@
+# main links
+main:
+  - title: "Usage"
+    url: /usage/
+  - title: "History"
+    url: /history/
+  - title: "GitHub"
+    url: https://github.com/omenad/fonts
+  - title: "Omenad"
+    url: http://omenad.net
+  # - title: "About"
+  #   url: https://mmistakes.github.io/minimal-mistakes/about/
+  # - title: "Sample Posts"
+  #   url: /year-archive/
+  # - title: "Sample Collections"
+  #   url: /collection-archive/
+  # - title: "Sitemap"
+  #   url: /sitemap/
