@@ -235,4 +235,24 @@
       }
     }
   }
+
+  &--text-center {
+    margin-bottom: 2em;
+    font-size: 1.25rem;
+    text-align: center;
+
+    @include breakpoint($small) {
+      margin-bottom: 0;
+      @include gallery(4 of 12);
+
+      .feature__item-teaser {
+        max-height: 200px;
+        overflow: hidden;
+      }
+    }
+
+    a {
+      color: $darker-gray;
+    }
+  }
 }

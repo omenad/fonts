@@ -14,10 +14,19 @@
       {% capture f_url %}{{ f.url | absolute_url }}{% endcapture %}
     {% endif %}
 
+    {% if f.url %}
+      {% capture f_url_a_start %}<a href="{{ f_url }}">{% endcapture %}
+      {% capture f_url_a_end %}</a>{% endcapture %}
+    {% else %}
+      {% capture f_url_a_start %}{% endcapture %}
+      {% capture f_url_a_end %}{% endcapture %}
+    {% endif %}
+
     <div class="feature__item{% if include.type %}--{{ include.type }}{% endif %}">
       <div class="archive__item">
         {% if f.image_path %}
           <div class="archive__item-teaser">
+            {{ f_url_a_start }}
             <img src=
               {% if f.image_path contains "://" %}
                 "{{ f.image_path }}"
@@ -25,22 +34,21 @@
                 "{{ f.image_path | absolute_url }}"
               {% endif %}
             alt="{% if f.alt %}{{ f.alt }}{% endif %}">
+            {{ f_url_a_end }}
           </div>
         {% endif %}
 
         <div class="archive__item-body">
           {% if f.title %}
+            {{ f_url_a_start }}
             <h2 class="archive__item-title">{{ f.title }}</h2>
+            {{ f_url_a_end }}
           {% endif %}
 
           {% if f.excerpt %}
             <div class="archive__item-excerpt">
               {{ f.excerpt | markdownify }}
             </div>
-          {% endif %}
-
-          {% if f.url %}
-            <p><a href="{{ f_url }}" class="btn {{ f.btn_class }}">{{ f.btn_label | default: site.data.ui-text[site.locale].more_label | default: "Learn More" }}</a></p>
           {% endif %}
         </div>
       </div>
