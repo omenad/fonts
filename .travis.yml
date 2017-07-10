@@ -4,7 +4,7 @@ services: docker
 before_install:
 - |
     echo Checking whether $TRAVIS_COMMIT_RANGE changed only docs
-    git diff --name-only $TRAVIS_COMMIT_RANGE | grep -qvE '(AUTHORS|README\.md|^(docs)/)' || {
+    git diff --name-only $TRAVIS_COMMIT_RANGE | grep -qvE '(README\.md|^(docs)/)' || {
       echo "Only docs were updated, stopping build process."
       exit
     }
