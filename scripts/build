@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+
+set -e
+
+SOURCE=$(find . -type f -name *.sfd | xargs)
+
+docker run --rm -v $PWD:/home/fontdev sungsit/fontforge \
+    "/bin/bash" "-c" \
+    "./scripts/convert.pe $SOURCE"
