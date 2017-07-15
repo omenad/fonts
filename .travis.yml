@@ -10,7 +10,7 @@ before_install:
   }
 
 before_deploy:
-- docker run --rm -v ${PWD}:/home/fontdev sungsit/fontforge "/bin/bash" "-c" "ls -l"
+- docker run --rm -v ${PWD}:/home/fontdev sungsit/fontforge "/bin/bash" "-c" "echo test > dist/testfile.txt"
 
 deploy:
   provider: releases
