@@ -10,4 +10,4 @@ fi
 
 zip -r dist/omenad-fonts-${TAG}.zip ttf/*.ttf
 
-echo ${realpath dist/omenad-fonts-${TAG}.zip}
+echo realpath dist/omenad-fonts-${TAG}.zip
