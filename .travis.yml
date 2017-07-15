@@ -10,7 +10,7 @@ before_install:
   }
 
 before_deploy:
-- "./scripts/publish ${TRAVIS_TAG}"
+- docker run --rm -v $PWD:/home/fontdev sungsit/fontforge "/bin/bash" "-c" "echo test > dist/testfile.txt"
 
 deploy:
   provider: releases
