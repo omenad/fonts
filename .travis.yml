@@ -11,4 +11,4 @@ before_install:
 
 script:
 - |
-    ./scripts/build
+    ./scripts/publish

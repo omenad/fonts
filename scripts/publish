@@ -1,0 +1,19 @@
+#!/usr/bin/env bash
+
+set -e
+
+TAG=$1
+
+if [ -z $TAG ]; then
+    TAG=$(git rev-parse --short HEAD)
+fi
+
+SOURCE=$(find . -type f -name *.sfd | xargs)
+
+docker run --rm -v $PWD:/home/fontdev sungsit/fontforge \
+    "/bin/bash" "-c" \
+    "./scripts/convert.pe --output dist $SOURCE"
+
+zip -r dist/omenad-fonts-$TAG.zip dist/*.ttf
+
+rm -f dist/*.ttf
