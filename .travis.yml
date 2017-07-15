@@ -3,12 +3,20 @@ services: docker
 
 before_install:
 - |
-    echo Checking whether $TRAVIS_COMMIT_RANGE changed only docs
-    git diff --name-only $TRAVIS_COMMIT_RANGE | grep -qvE '(README\.md|^(docs)/)' || {
-      echo "Only docs were updated, stopping build process."
-      exit
-    }
+  echo Checking whether $TRAVIS_COMMIT_RANGE changed only docs
+  git diff --name-only $TRAVIS_COMMIT_RANGE | grep -qvE '(README\.md|^(docs)/)' || {
+    echo "Only docs were updated, stopping build process."
+    exit
+  }
 
-script:
-- |
-    ./scripts/publish
+before_deploy:
+- "./scripts/publish ${TRAVIS_TAG}"
+
+deploy:
+  provider: releases
+  api_key:
+    secure: gOdUBXdfeV0jhDsNEA6mDm3uyKp9UkTQ5XNfHqDLSGR8pI18OFkuPGWXOrNYDUvTqfM5ly0AS6FC+wSXFPH2Hh4vr5k3sWn8aKGvySus9/RF7hDOQP0dIvFOsB1ai8QSQmLKFSmgT0KHJQ6fw5m2si96zPTsv4ql+NfbudU5J6tdjf9flijS2L/s7ByIjazoIro4D8XC+KBMHEzVmJBSYScDk6ry0PVz9cIQqnkOTB5WsIM6QRQide8C9YfTu5Gx82d9qTK17zJRfpfWBX5Y1g11smMWugeVA2EUsnZh7NfajPaYGiayMQX6cT+bnkvQt5DJdv+AbW4rcfYc+2NozbQHWRT+3N9fJhuYyFois/94ACZaMSqhDkkFz9W/KoQB5NNddJlWmxZHSsHcKv+kt8jTKCuYieyriT7Wsy+o3JAx6J3Sve5oQDQFkVxmvklwGbp13HPXY/I7lalvBpY6D9YyJkZV7SoTjcjQSlOv6Vc6987C21CleeomfQQhdC8M1v90pOPDlkhYCRsPmnGZSjqi6OEt8+EMlXlBO4ygoGVP92xDP8AToUVgNzerjsGaQe+ELXINjon+LEwJq3QIapYctvu8VnvNmTB0zYfLGFAJqGAnYYNk6lv/3PpP1jvp3mdMpDDuKbe0d8jp2CwY3j9S3nB8Tex30pZvkbsdhiM=
+  file: dist/omenad-fonts-${TRAVIS_TAG}.zip
+  on:
+    repo: omenad/fonts
+    branch: travis-ci
