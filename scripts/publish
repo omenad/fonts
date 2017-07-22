@@ -8,4 +8,4 @@ if [ -z "${TAG}" ]; then
     TAG=$(git rev-parse --short HEAD)
 fi
 
-zip -r dist/omenad-fonts-${TAG}.zip ttf/*.ttf
+zip -r dist/omenad-fonts-${TAG}.zip ttf/*.ttf LICENSE CHANGELOG.md
