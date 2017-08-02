@@ -1,0 +1,43 @@
+table.keymap {
+  border: none;
+  text-align: center;
+  font-size: 1.0em;
+
+  thead {
+    border: none;
+
+    tr > th {
+      width: 33%;
+      text-align: center;
+
+      &:last-child {
+        border-right: none;
+      }
+    }
+  }
+
+  tbody {
+    tr {
+      border-top: 1px solid $light-gray;
+
+      td {
+        border-bottom: none;
+
+        &:last-child {
+          border-right: none;
+        }
+      }
+    }
+  }
+}
+
+table.swarlipi {
+  td > code {
+    font-size: 1.0em;
+  }
+
+  td:last-child {
+    font-family: 'ome_swarlipi';
+    font-size: 2.0em;
+  }
+}
