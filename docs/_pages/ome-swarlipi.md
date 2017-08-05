@@ -8,6 +8,8 @@ header:
     overlay_image: /assets/images/ome-swarlipi-header.jpg
 ---
 
+{% include toc title="Overview" %}
+
 # Introduction
 
 # Glyphs
