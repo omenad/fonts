@@ -23,6 +23,10 @@ table.keymap {
       td {
         border-bottom: none;
 
+        code {
+          font-size: 1.0em;
+        }
+
         &:last-child {
           border-right: none;
         }
@@ -31,13 +35,7 @@ table.keymap {
   }
 }
 
-table.swarlipi {
-  td > code {
-    font-size: 1.0em;
-  }
-
-  td:last-child {
-    font-family: 'ome_swarlipi';
-    font-size: 2.0em;
-  }
+table.swarlipi td:last-child {
+  font-family: 'ome_swarlipi';
+  font-size: 2.0em;
 }
