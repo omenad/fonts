@@ -542,9 +542,16 @@
     }
   }
 
-  li ul > li a {
-    padding-left: 2rem;
-    font-weight: normal;
+  li ul > li {
+    a {
+      font-weight: normal;
+      padding-left: 2rem;
+    }
+
+    > ul > li a {
+      text-transform: none;
+      padding-left: 4rem;
+    }
   }
 
   /* hide sub sub links on small screens*/
