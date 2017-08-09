@@ -149,4 +149,110 @@ Krintan is Kan repeated twice, thrice, four times in a single stroke of the Mizr
 
 # Layout
 
+{:.composition.meend-english}
+|||`g  @pp g  p `|`-  @nn d  n `|
+|||`[  \ [  ] `|`-  \ [  ] `|
+|`su  -  d  n `|`su  ru  su  - `|`su  @gugu @gugu @mumu`|`ru  @rusu @-su d `|
+|`[  -  [  ] `|`[  ]  [  - `|`[  \ \ \`|`[  @'[ @-' [`|
+|`p  @mm @gg @mm`|`r  @rs @-s s `|||
+|`[  \ \ \`|`[  @'[ @-' [ `|||
+|`x`|`2`|`0`|`3`|
+
+_Raga Bilawal: Composition 101, Antara from राग विबोध : मिश्रबानी by Dr. Ragini Trivedi_
+
+The Bhatkhande notation system requires more ceremony and organization to write.
+It is written in a tabular format, with columns subdividing the beat into smaller parts.
+Each line of the composition is written in two rows: the top row being the notes (movement of the left hand on sitar), and the bottom one being strokes (movement of the right hand on sitar).
+The final row represents the starting beat for each subdivision. The rest are captured from the alignment.
+
 # Web Use
+
+For usage on the web, add the following block to the `<head>` section:
+
+```html
+<link rel="stylesheet" href="https://omescribe.com/webfonts/omenad-fonts.css">
+```
+
+You can then use the `.omenad-meend-english` class on any element to use the font:
+
+```html
+<code class="omenad-meend-english">g  @pp g  p</code>
+```
+
+It is recommended to use `<pre>` or `<code>` to preserve whitespace in the compositions.
+
+For writing a full composition as shown above, a table is required, for example:
+
+```html
+<table class="composition meend-english">
+  <tbody>
+    <tr>
+      <td></td>
+      <td></td>
+      <td><code>g  @pp g  p </code></td>
+      <td><code>-  @nn d  n </code></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td><code>[  \ [  ] </code></td>
+      <td><code>-  \ [  ] </code></td>
+    </tr>
+    <tr>
+      <td><code>su  -  d  n </code></td>
+      <td><code>su  ru  su  - </code></td>
+      <td><code>su  @gugu @gugu @mumu</code></td>
+      <td><code>ru  @rusu @-su d </code></td>
+    </tr>
+    <tr>
+      <td><code>[  -  [  ] </code></td>
+      <td><code>[  ]  [  - </code></td>
+      <td><code>[  \ \ \</code></td>
+      <td><code>[  @'[ @-' [</code></td>
+    </tr>
+    <tr>
+      <td><code>p  @mm @gg @mm</code></td>
+      <td><code>r  @rs @-s s </code></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><code>[  \ \ \</code></td>
+      <td><code>[  @'[ @-' [ </code></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><code>x</code></td>
+      <td><code>2</code></td>
+      <td><code>0</code></td>
+      <td><code>3</code></td>
+    </tr>
+  </tbody>
+</table>
+```
+
+with additional styling provided by:
+
+```scss
+table.composition {
+  border: none;
+
+  td {
+    width: 25%;
+    border: none;
+    border-right: 1px solid black;
+  }
+
+  td:last-child {
+    border-right: none;
+  }
+
+  &.meend-english td > code {
+    white-space: pre;
+    font-family: 'omenad_meend_english';
+  }
+}
+```
+
+Webfonts are currently not included in the download package, and they are not licensed for self-hosted web use. Usage from the above URL is free and unlimited at this time.

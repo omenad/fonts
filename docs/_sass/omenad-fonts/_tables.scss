@@ -45,22 +45,55 @@ table.keymap {
       }
     }
   }
+
+  &.swarlipi td:last-child {
+    font-family: 'ome_swarlipi';
+    font-size: 2.0em;
+    line-height: 2em;
+  }
+
+  &.meend-hindi td:last-child {
+    font-family: 'omenad_meend_hindi';
+    font-size: 1.5em;
+    line-height: 3em;
+  }
+
+  &.meend-english td:last-child {
+    font-family: 'omenad_meend_english';
+    font-size: 1.5em;
+    line-height: 3em;
+  }
 }
 
-table.swarlipi td:last-child {
-  font-family: 'ome_swarlipi';
-  font-size: 2.0em;
-  line-height: 2em;
-}
+table.composition {
+  border: none;
 
-table.meend-hindi td:last-child {
-  font-family: 'omenad_meend_hindi';
-  font-size: 1.5em;
-  line-height: 3em;
-}
+  td {
+    width: 25%;
+    border: none;
+    border-right: 1px solid $dark-gray;
+  }
 
-table.meend-english td:last-child {
-  font-family: 'omenad_meend_english';
-  font-size: 1.5em;
-  line-height: 3em;
+  td:last-child {
+    border-right: none;
+  }
+
+  td > code {
+    background: none;
+    border: none;
+    box-shadow: none;
+
+    font-size: 1.0rem;
+    line-height: 3.0rem;
+
+    white-space: pre;
+  }
+
+  &.meend-hindi td > code {
+    font-family: 'omenad_meend_hindi';
+  }
+
+  &.meend-english td > code {
+    font-family: 'omenad_meend_english';
+  }
 }
