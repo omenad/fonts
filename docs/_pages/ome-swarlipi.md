@@ -207,3 +207,33 @@ Each of the sixteen beats in Teen Tal is separated by <span class="ome-swarlipi"
 In the third row we use spaces for the whitespace. Each space in the font has the same width as every character, making it easy to line up.
 
 # Web Use
+
+For usage on the web, add the following block to the `<head>` section:
+
+```html
+<link rel="stylesheet" href="https://omescribe.com/webfonts/omenad-fonts.css">
+```
+
+You can then use the `.ome-swarlipi` class on any element to use the font:
+
+```html
+<pre class="ome-swarlipi">
+# sarraggappAddasusuaruruaguguAruruasusuaddappAggarrasas
+  [a\a\a\A\a\a\a\A\a\a\a\A\a\a[a]
+  x         A5          A+          A13
+</pre>
+```
+
+It is recommended to use `<pre>` or `<code>` to preserve whitespace in the compositions.
+
+If you'd like to do something more interesting, you can use `ome_swarlipi` as the `font-family` in a more complicated style class:
+
+```css
+.language-swarlipi {
+  font-family: 'ome_swarlipi';
+  font-size: 1.4em;
+  line-height: 1.6em;
+}
+```
+
+Webfonts are currently not included in the download package, and they are not licensed for self-hosted web use. Usage from the above URL is free and unlimited at this time.
