@@ -25,6 +25,18 @@ table.keymap {
 
         code {
           font-size: 1.0em;
+          display: inline-block;
+          padding: 0.2rem 0.2rem;
+          vertical-align: middle;
+          background-color: $code-background-color;
+          border-radius: $border-radius;
+          border: solid 1px $light-gray;
+          border-bottom-color: $gray;
+          box-shadow: inset 0 -1px 0 $gray;
+
+          &+code {
+              margin-left: 0.3rem;
+          }
         }
 
         &:last-child {
