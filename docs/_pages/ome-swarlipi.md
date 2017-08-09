@@ -14,6 +14,8 @@ header:
 
 # Glyphs
 
+Glyphs are visual components of a font. Here we list all the glyphs supported in the font, along with the keystrokes needed to evoke them.
+
 ## Swar (Notes)
 
 ### Regular Notes
@@ -179,5 +181,29 @@ Krintan is Kan repeated twice, thrice, four times in a single stroke of the Mizr
 | 9         | `9` | 9        |
 
 # Layout
+
+```swarlipi
+# sarraggappAddasusuaruruaguguAruruasusuaddappAggarrasas
+  [a\a\a\A\a\a\a\A\a\a\a\A\a\a[a]
+  x         A5          A+          A13
+
+  dladlsa-sarAga-adladlsA-saraga-Adladlsa-sarAg
+  [a'[a-'a[A[a-a[a'[A-'a[a[a-A[a'[a-'a[A[
+  x        A5       A+       A13       Ax
+```
+
+_Raga Bhupali: Tora 1, from Sitar Compositions in Ome Swarlipi by Dr. Ragini Trivedi_
+
+Swarlipi layout can be done in pure text form, without needing any additional formatting.
+
+Each line of music has three parallel rows of notation to represent it.
+The first row represents notes (the movement of the left hand on sitar).
+The second row represents strokes (the movement of the right hand on sitar).
+The third row represents beats (timing of movements).
+
+The <span class="ome-swarlipi">#</span> in the first row represents that this is where the line starts.
+Each of the sixteen beats in Teen Tal is separated by <span class="ome-swarlipi">a</span>, and every subdivision by <span class="ome-swarlipi">A</span>. These are kept in the same column in each row to make the rows align.
+
+In the third row we use spaces for the whitespace. Each space in the font has the same width as every character, making it easy to line up.
 
 # Web Use
