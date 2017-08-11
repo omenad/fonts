@@ -4,6 +4,8 @@ main:
     url: /usage/
   - title: "History"
     url: /history/
+  - title: Download
+    url: https://github.com/omenad/fonts/releases/download/1.0.0/omenad-fonts-1.0.0.zip
   - title: "GitHub"
     url: https://github.com/omenad/fonts
   - title: "Omenad"
