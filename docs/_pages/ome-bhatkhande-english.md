@@ -1,11 +1,11 @@
 ---
-title: Omenad Meend English
+title: Ome Bhatkhande English
 layout: splash
-permalink: /omenad-meend-english/
+permalink: /ome-bhatkhande-english/
 header:
     overlay_color: "000"
     overlay_filter: "0.5"
-    overlay_image: /assets/images/omenad-meend-english-header.jpg
+    overlay_image: /assets/images/ome-bhatkhande-english-header.jpg
 ---
 
 {% include toc title="Overview" %}
@@ -20,7 +20,7 @@ header:
 
 For the seven natural notes, use lower case keys corresponding to each note.
 
-{:.keymap.meend-english}
+{:.keymap.bhatkhande-english}
 | Note | Key | Bhatkhande |
 |------|-----|------------|
 | Sa   | `s` | s          |
@@ -35,7 +35,7 @@ For the seven natural notes, use lower case keys corresponding to each note.
 
 In Indian Music, Ma is the only note with a Sharp variant. Re, Ga, Dha, and Ni have Flat variants. These are typed using capital letters.
 
-{:.keymap.meend-english}
+{:.keymap.bhatkhande-english}
 | Note     | Key | Bhatkhande |
 |----------|-----|------------|
 | Flat Re  | `R` | R          |
@@ -48,7 +48,7 @@ In Indian Music, Ma is the only note with a Sharp variant. Re, Ga, Dha, and Ni h
 
 A dot symbol `·` above or below a note signifies upper or lower octave respectively. The absence of the dot signifies middle octave.
 
-{:.keymap.meend-english}
+{:.keymap.bhatkhande-english}
 | Note           | Key  | Bhatkhande |
 |----------------|------|------------|
 | Lower Sharp Ma | `Ml` | Ml         |
@@ -59,7 +59,7 @@ A dot symbol `·` above or below a note signifies upper or lower octave respecti
 
 All Strokes take the same space as Notes, except for Dir which takes the space for two Notes.
 
-{:.keymap.meend-english}
+{:.keymap.bhatkhande-english}
 | Stroke | Key | Bhatkhande  |
 |--------|-----|-------------|
 | Da     | `;` | ;           |
@@ -75,7 +75,7 @@ The Meend characters take zero space, and must be typed immediately before a not
 
 A valid Meend sequence is that which begins with the Meend Start character `q`, is followed by one note from any octave, followed by zero or more pairs of a Meend Continue character `w` and one note from any octave, and finished with a Meend End character `e` followed by one note from any octave. The Meend Stroke character, made with a `W`, is used to indicate a note on which a stroke is necesary to keep the meend going.
 
-{:.keymap.meend-english}
+{:.keymap.bhatkhande-english}
 | Meend Character | Key | Bhatkhande |
 |-----------------|-----|------------|
 | Meend Start     | `q` | q          |
@@ -87,7 +87,7 @@ A valid Meend sequence is that which begins with the Meend Start character `q`, 
 
 The following examples illustrate how a valid Meend sequence is visually cohesive in its representation of a continuous pull:
 
-{:.keymap.meend-english}
+{:.keymap.bhatkhande-english}
 | Key Strokes  | Bhatkhande |
 |--------------|------------|
 | `qgwGwRwGer` | qgwGwRwGer |
@@ -99,9 +99,9 @@ Please note that while the third example above is syntactically correct, such a 
 
 ## Murki
 
-Parentheses around a note indicate a quick movement from the note to the adjescent ones and back to the original note. For example, <span class="omenad-meend-english">(p)</span> translates to <span class="omenad-meend-english">pMdp</span>.
+Parentheses around a note indicate a quick movement from the note to the adjescent ones and back to the original note. For example, <span class="ome-bhatkhande-english">(p)</span> translates to <span class="ome-bhatkhande-english">pMdp</span>.
 
-{:.keymap.meend-english}
+{:.keymap.bhatkhande-english}
 | Key Strokes | Bhatkhande |
 |-------------|------------|
 | `(p)`       | (p)        |
@@ -110,7 +110,7 @@ Parentheses around a note indicate a quick movement from the note to the adjesce
 
 Kan and Krintan rely on the word processing ability to **superscript**. Since the width of these superscripted characters depends on the word processor, in certain cases it can break the monospacing of the font.
 
-{:.keymap.meend-english}
+{:.keymap.bhatkhande-english}
 | Key Strokes              | Bhatkhande          |
 |--------------------------|---------------------|
 | `<sup>``m``</sup>``p`    | <sup>m</sup>p       |
@@ -122,14 +122,14 @@ The ability to add predictable superscripting is planned for the future.
 
 Krintan is Kan repeated twice, thrice, four times in a single stroke of the Mizrab, represented by the numeral after the Kan note.
 
-{:.keymap.meend-english}
+{:.keymap.bhatkhande-english}
 | Key Strokes              | Bhatkhande          |
 |--------------------------|---------------------|
 | `<sup>``m3``</sup>``p`   | <sup>m3</sup>p      |
 
 ## Miscellaneous
 
-{:.keymap.meend-english}
+{:.keymap.bhatkhande-english}
 | Type      | Key | Bhatkhande |
 |-----------|-----|------------|
 | Sam       | `x` | x          |
@@ -149,7 +149,7 @@ Krintan is Kan repeated twice, thrice, four times in a single stroke of the Mizr
 
 # Layout
 
-{:.composition.meend-english}
+{:.composition.bhatkhande-english}
 |||`g  @pp g  p `|`-  @nn d  n `|
 |||`[  \ [  ] `|`-  \ [  ] `|
 |`su  -  d  n `|`su  ru  su  - `|`su  @gugu @gugu @mumu`|`ru  @rusu @-su d `|
@@ -173,10 +173,10 @@ For usage on the web, add the following block to the `<head>` section:
 <link rel="stylesheet" href="https://omescribe.com/webfonts/omenad-fonts.css">
 ```
 
-You can then use the `.omenad-meend-english` class on any element to use the font:
+You can then use the `.ome-bhatkhande-english` class on any element to use the font:
 
 ```html
-<code class="omenad-meend-english">g  @pp g  p</code>
+<code class="ome-bhatkhande-english">g  @pp g  p</code>
 ```
 
 It is recommended to use `<pre>` or `<code>` to preserve whitespace in the compositions.
@@ -184,7 +184,7 @@ It is recommended to use `<pre>` or `<code>` to preserve whitespace in the compo
 For writing a full composition as shown above, a table is required, for example:
 
 ```html
-<table class="composition meend-english">
+<table class="composition bhatkhande-english">
   <tbody>
     <tr>
       <td></td>
@@ -248,9 +248,9 @@ table.composition {
     border-right: none;
   }
 
-  &.meend-english td > code {
+  &.bhatkhande-english td > code {
     white-space: pre;
-    font-family: 'omenad_meend_english';
+    font-family: 'ome_bhatkhande_english';
   }
 }
 ```

@@ -30,7 +30,7 @@ For usage on the web, add the following block to the `<head>` section:
 <link rel="stylesheet" href="https://omescribe.com/webfonts/omenad-fonts.css">
 ```
 
-You can then use the [`.ome-swarlipi`](/fonts/ome-swarlipi), [`.omenad-meend-hindi`](/fonts/omenad-meend-hindi), or [`.omenad-meend-english`](/fonts/omenad-meend-english) CSS classes to render in the respective font.
+You can then use the [`.ome-swarlipi`](/fonts/ome-swarlipi), [`.ome-bhatkhande-hindi`](/fonts/ome-bhatkhande-hindi), or [`.ome-bhatkhande-english`](/fonts/ome-bhatkhande-english) CSS classes to render in the respective font.
 
 ## License
 
