@@ -1,3 +1,7 @@
+## 2.0.0
+
+- Rename "Omenad Meend" fonts to "Ome Bhatkhande"
+
 ## 1.0.0
 
 - Initial public release of Ome Swarlipi and Omenad Meend fonts
