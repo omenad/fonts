@@ -52,14 +52,14 @@ table.keymap {
     line-height: 2em;
   }
 
-  &.meend-hindi td:last-child {
-    font-family: 'omenad_meend_hindi';
+  &.bhatkhande-hindi td:last-child {
+    font-family: 'ome_bhatkhande_hindi';
     font-size: 1.5em;
     line-height: 3em;
   }
 
-  &.meend-english td:last-child {
-    font-family: 'omenad_meend_english';
+  &.bhatkhande-english td:last-child {
+    font-family: 'ome_bhatkhande_english';
     font-size: 1.5em;
     line-height: 3em;
   }
@@ -89,11 +89,11 @@ table.composition {
     white-space: pre;
   }
 
-  &.meend-hindi td > code {
-    font-family: 'omenad_meend_hindi';
+  &.bhatkhande-hindi td > code {
+    font-family: 'ome_bhatkhande_hindi';
   }
 
-  &.meend-english td > code {
-    font-family: 'omenad_meend_english';
+  &.bhatkhande-english td > code {
+    font-family: 'ome_bhatkhande_english';
   }
 }
