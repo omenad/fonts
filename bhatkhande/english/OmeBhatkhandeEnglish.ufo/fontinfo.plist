@@ -3,15 +3,15 @@
 <plist version="1.0">
   <dict>
     <key>familyName</key>
-    <string>Omenad Meend Hindi</string>
+    <string>Ome Bhatkhande English</string>
     <key>styleName</key>
-    <string>Book</string>
+    <string>Regular</string>
     <key>styleMapFamilyName</key>
-    <string>Omenad Meend Hindi</string>
+    <string>Ome Bhatkhande English</string>
     <key>versionMajor</key>
     <integer>1</integer>
     <key>versionMinor</key>
-    <integer>20</integer>
+    <integer>0</integer>
     <key>copyright</key>
     <string>Omenad 2006-2017</string>
     <key>unitsPerEm</key>
@@ -38,7 +38,7 @@
     <string>http://www.tuhinanshu.com</string>
     <key>openTypeNameLicense</key>
     <string>Copyright (c) 2017, Omenad (http://omenad.net),
-with Reserved Font Name Omenad Meend Hindi.
+with Reserved Font Name Ome Bhatkhande.
 
 This Font Software is licensed under the SIL Open Font License, Version 1.1.
 This license is copied below, and is also available with a FAQ at:
@@ -134,11 +134,11 @@ OTHER DEALINGS IN THE FONT SOFTWARE.</string>
     <key>openTypeNameLicenseURL</key>
     <string>http://scripts.sil.org/OFL</string>
     <key>openTypeNameVersion</key>
-    <string>Version 1.20 Dec 19, 2009, re-release</string>
+    <string>Version 1.00 Aug 12, 2017</string>
     <key>openTypeNameUniqueID</key>
-    <string>OmenadMeendHin:1.20</string>
+    <string>OmeBhatkhandeEng:1.00</string>
     <key>openTypeNameDescription</key>
-    <string>For writing Indian Classical Music in Bhatkhande script using Devanagari characters</string>
+    <string>For writing Indian Classical Music in Bhatkhande script using Roman characters</string>
     <key>openTypeNameSampleText</key>
     <string>~#qswRwG%wMepDlNu ;'[]</string>
     <key>openTypeOS2Panose</key>
@@ -251,11 +251,11 @@ OTHER DEALINGS IN THE FONT SOFTWARE.</string>
       <integer>63</integer>
     </array>
     <key>postscriptFontName</key>
-    <string>OmenadMeendHindi</string>
+    <string>OmeBhatkhandeEnglish</string>
     <key>postscriptFullName</key>
-    <string>Omenad Meend Hindi</string>
+    <string>Ome Bhatkhande English</string>
     <key>postscriptWeightName</key>
-    <string>Book</string>
+    <string>Regular</string>
     <key>postscriptUnderlineThickness</key>
     <integer>150</integer>
     <key>postscriptUnderlinePosition</key>
