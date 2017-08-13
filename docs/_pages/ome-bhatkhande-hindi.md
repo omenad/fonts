@@ -69,6 +69,39 @@ All Strokes take the same space as Notes, except for Dir which takes the space f
 | Dir    | `\` | \           |
 | Khali  | `-` | -           |
 
+## Chhand
+
+Chhand characters take zero space, and must be typed immediately before a set of notes they will cover. They are used to show multiple notes played within the same beat.
+
+To make a chhand of 2-8 notes, use the keys `Shift``+``2`&ndash;`8`:
+
+{:.keymap.bhatkhande-hindi}
+| Chhand Size  | Key | Bhatkhande |
+|--------------|-----|------------|
+| Dugun (2)    | `@` | @          |
+| Tigun (3)    | `#` | #          |
+| Chaugun (4)  | `$` | $          |
+| Pachgun (5)  | `%` | %          |
+| Chhatgun (6) | `^` | ^          |
+| Satgun (7)   | `&` | &          |
+| Athgun (8)   | `*` | *          |
+
+Additionally, <code>`</code> and `~` can be used for a lower version of Chaugun (4), Chhatgun (6), and Athgun (8) to allow for larger groupings.
+
+{:.keymap.bhatkhande-hindi}
+| Chhand Size        | Key            | Bhatkhande |
+|--------------------|----------------|------------|
+| Lower Chaugun (4)  | <code>`</code> | `          |
+| Lower Chhatgun (6) | `!`            | !          |
+| Lower Athgun (8)   | `~`            | ~          |
+
+This is an example of a chhand showing complicated layakari:
+
+{:.keymap.bhatkhande-hindi}
+| Key Strokes                          | Bhatkhande                       |
+|--------------------------------------|----------------------------------|
+| ``~#srg%mpdnsu !@sr$gmpd `qswrWgem`` | ~#srg%mpdnsu !@sr$gmpd `qswrWgem |
+
 ## Meend
 
 The Meend characters take zero space, and must be typed immediately before a note from any octave. The Meend characters, are to be used as a set.
@@ -164,6 +197,22 @@ The Bhatkhande notation system requires more ceremony and organization to write.
 It is written in a tabular format, with columns subdividing the beat into smaller parts.
 Each line of the composition is written in two rows: the top row being the notes (movement of the left hand on sitar), and the bottom one being strokes (movement of the right hand on sitar).
 The final row represents the starting beat for each subdivision. The rest are captured from the alignment.
+
+## Zero Character Sequencing
+
+The zero character sets of Chhand and Meend, they can be typed in any order and have the same visual effect. For example, pay attention to the first three characters in the following:
+
+{:.keymap.bhatkhande-hindi}
+| Key Strokes              | Bhatkhande  |
+|--------------------------|-------------|
+| <code>`@qswr@Wgem</code> | `@qswr@Wgem |
+| <code>`q@swr@Wgem</code> | `q@swr@Wgem |
+| <code>@`qswr@Wgem</code> | @`qswr@Wgem |
+| <code>@q`swr@Wgem</code> | @q`swr@Wgem |
+| <code>q`@swr@Wgem</code> | q`@swr@Wgem |
+| <code>q@`swr@Wgem</code> | q@`swr@Wgem |
+
+Of these, the first one should be considered canonical. The characters should be ordered in ascending terms of locality, with the least local Lower Chaugun (affecting 4 notes) first, then Dugun (affecting two notes), and then the Meend Start (affecting only one). The character affecting only one note should be closest to it.
 
 # Web Use
 
