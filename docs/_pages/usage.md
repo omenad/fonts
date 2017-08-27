@@ -14,7 +14,7 @@ header:
 
 All three fonts are in the True Type format, and are compatible with Winodws, Mac, and Linux.
 
-To install the fonts, [download](https://github.com/omenad/fonts/releases/download/1.0.0/omenad-fonts-1.0.0.zip) the archive, extract it, and install the fonts.
+To install the fonts, [download](https://github.com/omenad/fonts/releases/download/2.0.0/omenad-fonts-2.0.0.zip) the archive, extract it, and install the fonts.
 
 ## License
 
