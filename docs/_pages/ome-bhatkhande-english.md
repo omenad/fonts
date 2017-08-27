@@ -123,12 +123,10 @@ The following examples illustrate how a valid Meend sequence is visually cohesiv
 {:.keymap.bhatkhande-english}
 | Key Strokes  | Bhatkhande |
 |--------------|------------|
-| `qgwGwRwGer` | qgwGwRwGer |
+| `qswrwgem`   | qswrwgem   |
 | `qger`       | qger       |
-| `qgwGlwGeru` | qgwGlwGeru |
-| `qgwpWMep`   | qgwpWMep   |
-
-Please note that while the third example above is syntactically correct, such a Meend is impossible in Sitars, on which pulling even a five-note Meend is extremely difficult.
+| `qRwGwmep`   | qRwGwmep   |
+| `qDlwNlWser` | qDlwNlWser |
 
 ## Murki
 
