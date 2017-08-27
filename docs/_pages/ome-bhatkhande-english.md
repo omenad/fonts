@@ -132,7 +132,7 @@ Please note that while the third example above is syntactically correct, such a 
 
 ## Murki
 
-Parentheses around a note indicate a quick movement from the note to the adjescent ones and back to the original note. For example, <span class="ome-bhatkhande-english">(p)</span> translates to <span class="ome-bhatkhande-english">pMdp</span>.
+Parentheses around a note indicate a quick movement from the note to the adjescent ones and back to the original note. For example, <span class="ome-bhatkhande-english">(p)</span> can translate to <span class="ome-bhatkhande-english">Mpdp</span>, or <span class="ome-bhatkhande-english">dpMp</span>, or <span class="ome-bhatkhande-english">pMdp</span>, depending on the artist's interpretation.
 
 {:.keymap.bhatkhande-english}
 | Key Strokes | Bhatkhande |

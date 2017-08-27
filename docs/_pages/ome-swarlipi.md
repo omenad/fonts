@@ -131,7 +131,7 @@ Squiggle above a preceeding note indicates a quick vibration of sound. It can be
 
 ## Murki
 
-Parentheses around a note indicate a quick movement from the note to the adjescent ones and back to the original note. For example, <span class="ome-swarlipi">(p)</span> translates to <span class="ome-swarlipi">pMdp</span>.
+Parentheses around a note indicate a quick movement from the note to the adjescent ones and back to the original note. For example, <span class="ome-swarlipi">(p)</span> can translate to <span class="ome-swarlipi">Mpdp</span>, or <span class="ome-swarlipi">dpMp</span>, or <span class="ome-swarlipi">pMdp</span>, depending on the artist's interpretation.
 
 {:.keymap.swarlipi}
 | Key Strokes | Swarlipi |
