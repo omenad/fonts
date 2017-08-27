@@ -86,7 +86,7 @@ To make a chhand of 2-8 notes, use the keys `Shift``+``2`&ndash;`8`:
 | Satgun (7)   | `&` | &          |
 | Athgun (8)   | `*` | *          |
 
-Additionally, <code>`</code> and `~` can be used for a lower version of Chaugun (4), Chhatgun (6), and Athgun (8) to allow for larger groupings.
+Additionally, <code>`</code>, `!`, and `~` can be used for a lower version of Chaugun (4), Chhatgun (6), and Athgun (8) to allow for larger groupings.
 
 {:.keymap.bhatkhande-english}
 | Chhand Size        | Key            | Bhatkhande |
