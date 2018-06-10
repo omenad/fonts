@@ -190,7 +190,7 @@ Krintan is Kan repeated twice, thrice, four times in a single stroke of the Mizr
   x        A5       A+       A13       Ax
 ```
 
-_Raga Bhupali: Tora 1, from Sitar Compositions in Ome Swarlipi by Dr. Ragini Trivedi_
+_Raga Bhupali: Tora 1, from [Sitar Compositions in Ome Swarlipi](http://www.lulu.com/us/en/shop/ragini-trivedi/sitar-compositions-in-ome-swarlipi/hardcover/product-15163843.html) by [Dr. Ragini Trivedi](http://raginitrivedi.com)_
 
 Swarlipi layout can be done in pure text form, without needing any additional formatting.
 
