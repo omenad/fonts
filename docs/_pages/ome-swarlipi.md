@@ -71,6 +71,15 @@ All Strokes take the same space as Notes, except for Dir which takes the space f
 | Dir    | `\` | \         |
 | Khali  | `-` | -         |
 
+### Special Instructions for Word Processors
+
+A number of word processors, including Microsoft Word, Apple Pages, and LibreOffice, will sometimes automatically replace a straight quotation mark `'` ([`U+0027` Apostrophe](http://graphemica.com/%27)) with a typographic quote `’` ([`U+2019` Right Single Quotation Mark](http://graphemica.com/%E2%80%99)). This facility is called "Smart Quotes". Since the Ome Swarlipi <span class="ome-swarlipi">&apos;</span> corresponds to the former, not the latter, having Smart Quotes enabled can make that character disappear. To fix this, turn off Smart Quotes.
+
+  * [Instructions for disabling Smart Quotes in Microsoft Word 365 or 2016](https://support.office.com/en-ie/article/smart-quotes-in-word-702fc92e-b723-4e3d-b2cc-71dedaf2f343)
+  * [Instructions for disabling Smart Quotes in Microsoft Word 2013 or 2010](https://www.laptopmag.com/articles/disable-smart-quotes-word)
+  * [Instructions for disabling Smart Quotes in Apple Pages](https://support.apple.com/kb/PH23628)
+  * [Instructions for disabling Smart Quotes in LibreOffice](https://earlruby.org/2011/08/how-to-turn-off-smart-quotes-in-libre-office-writer/)
+
 ## Dividers
 
 Each divider takes the space equivalent to one note. Smaller dividers typed by `a` divide beats, whereas larger dividers typed by `A` divide phases. The larger dividers when written exactly under each other in consecutive lines join together, providing a simple mechanism for making columns.
