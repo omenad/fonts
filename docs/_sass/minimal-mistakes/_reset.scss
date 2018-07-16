@@ -2,7 +2,7 @@
    STYLE RESETS
    ========================================================================== */
 
-@include border-box-sizing;
+* { box-sizing: border-box; }
 
 html {
   /* apply a natural box layout model to all elements */
@@ -172,7 +172,7 @@ input[type="checkbox"] {
 }
 
 input[type="search"] { /* Appearance in Safari/Chrome*/
-  box-sizing: content-box;
+  box-sizing: border-box;
   -webkit-appearance: textfield;
 }
 

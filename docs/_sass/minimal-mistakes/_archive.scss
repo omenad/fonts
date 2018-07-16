@@ -5,18 +5,15 @@
 .archive {
   margin-bottom: 2em;
 
-  @include breakpoint($medium) {
-    @include span(12 of 12);
-  }
-
   @include breakpoint($large) {
-    @include span(10 of 12 last);
-    @include prefix(0.5 of 12);
+    float: right;
+    width: calc(100% - #{$right-sidebar-width-narrow});
+    padding-right: $right-sidebar-width-narrow;
   }
 
-  a {
-    color: inherit;
-    text-decoration: none;
+  @include breakpoint($x-large) {
+    width: calc(100% - #{$right-sidebar-width});
+    padding-right: $right-sidebar-width;
   }
 }
 
@@ -24,7 +21,7 @@
   margin: 1.414em 0 0;
   padding-bottom: 0.5em;
   font-size: $type-size-5;
-  color: mix(#fff, $gray, 25%);
+  color: $muted-text-color;
   border-bottom: 1px solid $border-color;
 
   + .list__item .archive__item-title {
@@ -35,6 +32,13 @@
 .archive__item-title {
   margin-bottom: 0.25em;
   font-family: $sans-serif-narrow;
+  line-height: initial;
+  overflow: hidden;
+  text-overflow: ellipsis;
+
+  a {
+    color: inherit;
+  }
 
   a + a {
     opacity: 0.5;
@@ -43,7 +47,6 @@
 
 /* remove border*/
 .page__content {
-
   .archive__item-title {
     margin-top: 1em;
     border-bottom: none;
@@ -60,56 +63,119 @@
 }
 
 .archive__item-teaser {
+  position: relative;
   border-radius: $border-radius;
   overflow: hidden;
+
   img {
     width: 100%;
   }
 }
 
-.archive__item:hover {
-  .archive__item-teaser {
-    box-shadow: 0 0 10px rgba(#000, 0.25);
+.archive__item-caption {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin: 0 auto;
+  padding: 2px 5px;
+  color: #fff;
+  font-family: $caption-font-family;
+  font-size: $type-size-8;
+  background: #000;
+  text-align: right;
+  z-index: 5;
+  opacity: 0.5;
+  border-radius: $border-radius 0 0 0;
+
+  @include breakpoint($large) {
+    padding: 5px 10px;
   }
 
-  .archive__item-title {
-    text-decoration: underline;
+  a {
+    color: #fff;
+    text-decoration: none;
   }
 }
-
 
 /*
    List view
    ========================================================================== */
 
 .list__item {
-  @include breakpoint($medium) {
-    padding-right: $right-sidebar-width-narrow;
-  }
-
-  @include breakpoint($large) {
-    padding-right: $right-sidebar-width;
-  }
-
-  @include breakpoint($x-large) {
-    padding-right: $right-sidebar-width-wide;
-  }
-
   .page__meta {
     margin: 0 0 4px;
+    font-size: 0.6em;
   }
 }
-
 
 /*
    Grid view
    ========================================================================== */
 
+.archive {
+  .grid__wrapper {
+    /* extend grid elements to the right */
+
+    @include breakpoint($large) {
+      margin-right: -1 * $right-sidebar-width-narrow;
+    }
+
+    @include breakpoint($x-large) {
+      margin-right: -1 * $right-sidebar-width;
+    }
+  }
+}
+
 .grid__item {
   margin-bottom: 2em;
 
+  @include breakpoint($small) {
+    float: left;
+    width: span(5 of 10);
+
+    &:nth-child(2n + 1) {
+      clear: both;
+      margin-left: 0;
+    }
+
+    &:nth-child(2n + 2) {
+      clear: none;
+      margin-left: gutter(of 10);
+    }
+  }
+
+  @include breakpoint($medium) {
+    margin-left: 0; /* override margin*/
+    margin-right: 0; /* override margin*/
+    width: span(3 of 12);
+
+    &:nth-child(2n + 1) {
+      clear: none;
+    }
+
+    &:nth-child(4n + 1) {
+      clear: both;
+    }
+
+    &:nth-child(4n + 2) {
+      clear: none;
+      margin-left: gutter(1 of 12);
+    }
+
+    &:nth-child(4n + 3) {
+      clear: none;
+      margin-left: gutter(1 of 12);
+    }
+
+    &:nth-child(4n + 4) {
+      clear: none;
+      margin-left: gutter(1 of 12);
+    }
+  }
+
   .page__meta {
     margin: 0 0 4px;
+    font-size: 0.6em;
   }
 
   .archive__item-title {
@@ -119,31 +185,23 @@
 
   .archive__item-excerpt {
     display: none;
-  }
 
-  @include breakpoint($small) {
-    @include gallery(5 of 10);
-    .archive__item-teaser {
-      max-height: 200px;
-    }
-  }
-
-  @include breakpoint($medium) {
-    margin-left: 0; /* reset before mixin does its thing*/
-    margin-right: 0; /* reset before mixin does its thing*/
-    @include gallery(2.5 of 10);
-
-    .archive__item-teaser {
-      max-height: 120px;
-    }
-
-    .archive__item-excerpt {
+    @include breakpoint($medium) {
       display: block;
       font-size: $type-size-6;
     }
   }
-}
 
+  .archive__item-teaser {
+    @include breakpoint($small) {
+      max-height: 200px;
+    }
+
+    @include breakpoint($medium) {
+      max-height: 120px;
+    }
+  }
+}
 
 /*
    Features
@@ -160,8 +218,24 @@
   font-size: 1.25rem;
 
   @include breakpoint($small) {
+    float: left;
     margin-bottom: 0;
-    @include gallery(4 of 12);
+    width: span(4 of 12);
+
+    &:nth-child(3n + 1) {
+      clear: both;
+      margin-left: 0;
+    }
+
+    &:nth-child(3n + 2) {
+      clear: none;
+      margin-left: gutter(of 12);
+    }
+
+    &:nth-child(3n + 3) {
+      clear: none;
+      margin-left: gutter(of 12);
+    }
 
     .feature__item-teaser {
       max-height: 200px;
@@ -170,7 +244,11 @@
   }
 
   &--left {
-    @include full();
+    float: left;
+    margin-left: 0;
+    margin-right: 0;
+    width: 100%;
+    clear: both;
     font-size: 1.25rem;
 
     .archive__item-teaser {
@@ -179,19 +257,25 @@
 
     @include breakpoint($small) {
       .archive__item-teaser {
-        @include span(5 of 12);
+        float: left;
+        width: span(5 of 12);
       }
 
       .archive__item-body {
-        @include span(7 of 12 last);
-        @include prefix(0.5 of 12);
-        @include suffix(1 of 12);
+        float: right;
+        padding-left: gutter(0.5 of 12);
+        padding-right: gutter(1 of 12);
+        width: span(7 of 12);
       }
     }
   }
 
   &--right {
-    @include full();
+    float: left;
+    margin-left: 0;
+    margin-right: 0;
+    width: 100%;
+    clear: both;
     font-size: 1.25rem;
 
     .archive__item-teaser {
@@ -202,19 +286,25 @@
       text-align: right;
 
       .archive__item-teaser {
-        @include span(5 of 12 rtl);
+        float: right;
+        width: span(5 of 12);
       }
 
       .archive__item-body {
-        @include span(7 of 12 last rtl);
-        @include prefix(0.5 of 12);
-        @include suffix(1 of 12);
+        float: right;
+        width: span(7 of 12);
+        padding-left: gutter(0.5 of 12);
+        padding-right: gutter(1 of 12);
       }
     }
   }
 
   &--center {
-    @include full();
+    float: left;
+    margin-left: 0;
+    margin-right: 0;
+    width: 100%;
+    clear: both;
     font-size: 1.25rem;
 
     .archive__item-teaser {
@@ -242,8 +332,24 @@
     text-align: center;
 
     @include breakpoint($small) {
+      float: left;
       margin-bottom: 0;
-      @include gallery(4 of 12);
+      width: span(4 of 12);
+
+      &:nth-child(3n + 1) {
+        clear: both;
+        margin-left: 0;
+      }
+
+      &:nth-child(3n + 2) {
+        clear: none;
+        margin-left: gutter(of 12);
+      }
+
+      &:nth-child(3n + 3) {
+        clear: none;
+        margin-left: gutter(of 12);
+      }
 
       .feature__item-teaser {
         max-height: 200px;
@@ -253,6 +359,41 @@
 
     a {
       color: $darker-gray;
+      text-decoration: none;
+    }
+  }
+}
+
+/* Place inside an archive layout */
+
+.archive {
+  .feature__wrapper {
+    .archive__item-title {
+      margin-top: 0.25em;
+      font-size: 1em;
+    }
+  }
+
+  .feature__item,
+  .feature__item--left,
+  .feature__item--center,
+  .feature__item--right {
+    font-size: 1em;
+  }
+}
+
+/*
+   Wide Pages
+   ========================================================================== */
+
+  .wide {
+  .archive {
+    @include breakpoint($large) {
+      padding-right: 0;
+    }
+
+    @include breakpoint($x-large) {
+      padding-right: 0;
     }
   }
 }
