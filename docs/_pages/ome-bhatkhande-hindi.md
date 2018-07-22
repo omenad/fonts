@@ -189,6 +189,8 @@ Krintan is Kan repeated twice, thrice, four times in a single stroke of the Mizr
 
 # Layout
 
+<div class="horizontal-scroll-block" markdown="block">
+
 {:.composition.bhatkhande-hindi}
 |||`g  @pp g  p `|`-  @nn d  n `|
 |||`[  \ [  ] `|`-  \ [  ] `|
@@ -197,6 +199,8 @@ Krintan is Kan repeated twice, thrice, four times in a single stroke of the Mizr
 |`p  @mm @gg @mm`|`r  @rs @-s s `|||
 |`[  \ \ \`|`[  @'[ @-' [ `|||
 |`x`|`2`|`0`|`3`|
+
+</div>
 
 _Raga Bilawal: Composition 101, Antara from राग विबोध : मिश्रबानी by Dr. Ragini Trivedi_
 

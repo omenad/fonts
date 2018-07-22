@@ -83,7 +83,7 @@ table.composition {
     border: none;
     box-shadow: none;
 
-    font-size: 1.0rem;
+    font-size: 1.5rem;
     line-height: 3.0rem;
 
     white-space: pre;
@@ -96,4 +96,8 @@ table.composition {
   &.bhatkhande-english td > code {
     font-family: 'ome_bhatkhande_english';
   }
+}
+
+.horizontal-scroll-block {
+  overflow-x: auto;
 }
