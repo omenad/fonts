@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+
+set -e
+
+RELEASES_URL="https://api.github.com/repos/omenad/fonts/releases"
+TOKEN=$(< ~/.github/TOKEN_REPO_INQUIRY)
+PARSER="[ .[].assets[] | {name, download_count, created_at} ]"
+
+http $RELEASES_URL Authorization:"token $TOKEN" | jq "$PARSER"
