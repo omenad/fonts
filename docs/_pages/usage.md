@@ -35,3 +35,15 @@ You can then use the [`.ome-swarlipi`](/fonts/ome-swarlipi), [`.ome-bhatkhande-h
 ## License
 
 The fonts are not licensed for self-hosting of webfonts. To use these fonts on the web, the only licensed use is from the above stylesheet link. This use is free and unlimited at this time.
+
+# Apps
+
+Embedding fonts in apps for distribution on iOS, Android, or other mobile operating systems is allowed. Simply [download](https://github.com/omenad/fonts/releases/download/2.0.0/omenad-fonts-2.0.0.zip) the fonts and embed them as per development guidelines.
+
+## License
+
+All published apps must credit the authors, either in an "About" section within the app, or in the description page in the Apple iTunes Store, Google Play Store, or equivalent. For example:
+
+> Music notation in "Ome Swarlipi" made by Terence Tuhinanshu
+
+> Music notation in "Ome Bhatkhande" made by Omenad
