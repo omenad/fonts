@@ -1,11 +1,13 @@
 ---
 title: Ome Bhatkhande Hindi
-layout: splash
+layout: single
 permalink: /ome-bhatkhande-hindi/
 header:
     overlay_color: "000"
     overlay_filter: "0.5"
     overlay_image: /assets/images/ome-bhatkhande-hindi-header.jpg
+sidebar:
+    nav: "sidebar"
 ---
 
 {% include toc title="Overview" %}
