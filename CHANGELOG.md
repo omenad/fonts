@@ -1,3 +1,10 @@
+## 2.1.0
+
+- Add `quoteright` as a duplicate of `quotesingle` to account for Smart Quotes
+  features in word processors. This ensures that if an apostrophe is replaced
+  by a right single quote, the visual representation will not be affected.
+  [#13](https://github.com/omenad/fonts/issues/13)
+
 ## 2.0.0
 
 - Rename "Omenad Meend" fonts to "Ome Bhatkhande"
