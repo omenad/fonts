@@ -14,7 +14,7 @@ header:
 
 All three fonts are in the True Type format, and are compatible with Winodws, Mac, and Linux.
 
-To install the fonts, [download](https://github.com/omenad/fonts/releases/download/2.0.0/omenad-fonts-2.0.0.zip) the archive, extract it, and install the fonts.
+To install the fonts, [download]({{ site.download_url }}) the archive, extract it, and install the fonts.
 
 ## License
 
@@ -38,7 +38,7 @@ The fonts are not licensed for self-hosting of webfonts. To use these fonts on t
 
 # Apps
 
-Embedding fonts in apps for distribution on iOS, Android, or other mobile operating systems is allowed. Simply [download](https://github.com/omenad/fonts/releases/download/2.0.0/omenad-fonts-2.0.0.zip) the fonts and embed them as per development guidelines.
+Embedding fonts in apps for distribution on iOS, Android, or other mobile operating systems is allowed. Simply [download]({{ site.download_url }}) the fonts and embed them as per development guidelines.
 
 ## License
 

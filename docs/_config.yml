@@ -10,6 +10,9 @@ _include: ["_pages"]
 # Theme Settings
 minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
+# Download Settings
+download_url             : "http://rajada.in/omenadfonts210"
+
 # Site Settings
 locale                   : "en"
 title                    : "Omenad Fonts"
