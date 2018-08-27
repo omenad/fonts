@@ -71,12 +71,9 @@ All Strokes take the same space as Notes, except for Dir which takes the space f
 
 ### Special Instructions for Word Processors
 
-A number of word processors, including Microsoft Word, Apple Pages, and LibreOffice, will sometimes automatically replace a straight quotation mark `'` ([`U+0027` Apostrophe](http://graphemica.com/%27)) with a typographic quote `’` ([`U+2019` Right Single Quotation Mark](http://graphemica.com/%E2%80%99)). This facility is called "Smart Quotes". Since the Bhatkhande <span class="ome-bhatkhande-english">&apos;</span> corresponds to the former, not the latter, having Smart Quotes enabled can make that character disappear. To fix this, turn off Smart Quotes.
+A number of word processors, including Microsoft Word, Apple Pages, and LibreOffice, will sometimes automatically replace a straight quotation mark `'` ([`U+0027` Apostrophe](http://graphemica.com/%27)) with a typographic quote `’` ([`U+2019` Right Single Quotation Mark](http://graphemica.com/%E2%80%99)). This facility is called "Smart Quotes".
 
-  * [Instructions for disabling Smart Quotes in Microsoft Word 365 or 2016](https://support.office.com/en-ie/article/smart-quotes-in-word-702fc92e-b723-4e3d-b2cc-71dedaf2f343)
-  * [Instructions for disabling Smart Quotes in Microsoft Word 2013 or 2010](https://www.laptopmag.com/articles/disable-smart-quotes-word)
-  * [Instructions for disabling Smart Quotes in Apple Pages](https://support.apple.com/kb/PH23628)
-  * [Instructions for disabling Smart Quotes in LibreOffice](https://earlruby.org/2011/08/how-to-turn-off-smart-quotes-in-libre-office-writer/)
+In previous versions, the Bhatkhande <span class="ome-bhatkhande-english">&apos;</span> corresponded to the former, not the latter, and having Smart Quotes enabled made that character disappear. This was fixed in [version 2.1.0](https://github.com/omenad/fonts/releases/tag/2.1.0). Please upgrade to the latest version to remedy this issue.
 
 ## Chhand
 
