@@ -2,4 +2,50 @@
 <glyph name="quoteright" format="1">
   <advance width="1582"/>
   <unicode hex="2019"/>
+  <outline>
+    <contour>
+      <point x="464" y="849" type="line"/>
+      <point x="809" y="905" type="line"/>
+      <point x="665" y="419" type="line"/>
+      <point x="840" y="718"/>
+      <point x="983" y="837" type="qcurve" smooth="yes"/>
+      <point x="1064" y="905"/>
+      <point x="1115" y="905" type="qcurve" smooth="yes"/>
+      <point x="1148" y="905"/>
+      <point x="1186" y="866"/>
+      <point x="1186" y="829" type="qcurve" smooth="yes"/>
+      <point x="1186" y="763"/>
+      <point x="1152" y="703" type="qcurve" smooth="yes"/>
+      <point x="1128" y="658"/>
+      <point x="1083" y="658" type="qcurve" smooth="yes"/>
+      <point x="1060" y="658"/>
+      <point x="1027" y="688"/>
+      <point x="1023" y="719" type="qcurve" smooth="yes"/>
+      <point x="1021" y="738"/>
+      <point x="1014" y="744" type="qcurve" smooth="yes"/>
+      <point x="1006" y="752"/>
+      <point x="995" y="752" type="qcurve" smooth="yes"/>
+      <point x="978" y="752"/>
+      <point x="963" y="744" type="qcurve" smooth="yes"/>
+      <point x="937" y="730"/>
+      <point x="884" y="666" type="qcurve" smooth="yes"/>
+      <point x="801" y="568"/>
+      <point x="704" y="412" type="qcurve" smooth="yes"/>
+      <point x="662" y="346"/>
+      <point x="632" y="263" type="qcurve" smooth="yes"/>
+      <point x="590" y="149"/>
+      <point x="584" y="126" type="qcurve" smooth="yes"/>
+      <point x="552" y="0" type="line"/>
+      <point x="399" y="0" type="line"/>
+      <point x="584" y="621" type="line" smooth="yes"/>
+      <point x="616" y="729"/>
+      <point x="616" y="775" type="qcurve" smooth="yes"/>
+      <point x="616" y="793"/>
+      <point x="601" y="805" type="qcurve" smooth="yes"/>
+      <point x="581" y="821"/>
+      <point x="548" y="821" type="qcurve" smooth="yes"/>
+      <point x="527" y="821"/>
+      <point x="471" y="812" type="qcurve"/>
+    </contour>
+  </outline>
 </glyph>
