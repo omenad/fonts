@@ -3,19 +3,11 @@ title: Ome Bhatkhande Punjabi
 layout: single
 permalink: /ome-bhatkhande-punjabi/
 header:
-<<<<<<< HEAD
   overlay_color: "000"
   overlay_filter: "0.5"
   overlay_image: /assets/images/ome-bhatkhande-punjabi-header.jpg
 sidebar:
   nav: "sidebar"
-=======
-    overlay_color: "000"
-    overlay_filter: "0.5"
-    overlay_image: /assets/images/ome-bhatkhande-punjabi-header.jpg
-sidebar:
-    nav: "sidebar"
->>>>>>> 94a5bae8c99fbeb7c741eeb19cba46d37031cea8
 ---
 
 {% include toc title="Overview" %}
@@ -33,7 +25,6 @@ For the seven natural notes, use lower case keys corresponding to each note.
 {:.keymap.bhatkhande-punjabi}
 | Note | Key | Bhatkhande |
 | ---- | --- | ---------- |
-<<<<<<< HEAD
 | Sa | `s` | s |
 | Re | `r` | r |
 | Ga | `g` | g |
@@ -41,22 +32,12 @@ For the seven natural notes, use lower case keys corresponding to each note.
 | Pa | `p` | p |
 | Dha | `d` | d |
 | Ni | `n` | n |
-=======
-| Sa   | `s` | s          |
-| Re   | `r` | r          |
-| Ga   | `g` | g          |
-| Ma   | `m` | m          |
-| Pa   | `p` | p          |
-| Dha  | `d` | d          |
-| Ni   | `n` | n          |
->>>>>>> 94a5bae8c99fbeb7c741eeb19cba46d37031cea8
 
 ### Variant Notes
 
 In Indian Music, Ma is the only note with a Sharp variant. Re, Ga, Dha, and Ni have Flat variants. These are typed using capital letters.
 
 {:.keymap.bhatkhande-punjabi}
-<<<<<<< HEAD
 | Note | Key | Bhatkhande |
 | -------- | --- | ---------- |
 | Flat Re | `R` | R |
@@ -64,34 +45,17 @@ In Indian Music, Ma is the only note with a Sharp variant. Re, Ga, Dha, and Ni h
 | Sharp Ma | `M` | M |
 | Flat Dha | `D` | D |
 | Flat Ni | `N` | N |
-=======
-| Note     | Key | Bhatkhande |
-| -------- | --- | ---------- |
-| Flat Re  | `R` | R          |
-| Flat Ga  | `G` | G          |
-| Sharp Ma | `M` | M          |
-| Flat Dha | `D` | D          |
-| Flat Ni  | `N` | N          |
->>>>>>> 94a5bae8c99fbeb7c741eeb19cba46d37031cea8
 
 ### Octaves
 
 A dot symbol `·` above or below a note signifies upper or lower octave respectively. The absence of the dot signifies middle octave.
 
 {:.keymap.bhatkhande-punjabi}
-<<<<<<< HEAD
 | Note | Key | Bhatkhande |
 | -------------- | ---- | ---------- |
 | Lower Sharp Ma | `Ml` | Ml |
 | Middle Pa | `p` | p |
 | Upper Flat Dha | `Du` | Du |
-=======
-| Note           | Key  | Bhatkhande |
-| -------------- | ---- | ---------- |
-| Lower Sharp Ma | `Ml` | Ml         |
-| Middle Pa      | `p`  | p          |
-| Upper Flat Dha | `Du` | Du         |
->>>>>>> 94a5bae8c99fbeb7c741eeb19cba46d37031cea8
 
 ## Mizrab Ke Bol (Strokes)
 
@@ -100,20 +64,11 @@ All Strokes take the same space as Notes, except for Dir which takes the space f
 {:.keymap.bhatkhande-punjabi}
 | Stroke | Key | Bhatkhande |
 | ------ | --- | ---------- |
-<<<<<<< HEAD
 | Da | `;` | ; |
 | Ra | `'` | {{ "'" }} |
 | Daa | `[` | [ |
 | Raa | `]`| ] | | Dir |`\` | \ |
 | Khali | `-` | - |
-=======
-| Da     | `;` | ;          |
-| Ra     | `'` | {{ "'" }}  |
-| Daa    | `[` | [          |
-| Raa    | `]` | ]          |
-| Dir    | `\` | \          |
-| Khali  | `-` | -          |
->>>>>>> 94a5bae8c99fbeb7c741eeb19cba46d37031cea8
 
 ### Special Instructions for Word Processors
 
@@ -125,7 +80,6 @@ In previous versions, the Bhatkhande <span class="ome-bhatkhande-punjabi">&apos;
 
 Chhand characters take zero space, and must be typed immediately before a set of notes they will cover. They are used to show multiple notes played within the same beat.
 
-<<<<<<< HEAD
 To make a chhand of 2-8 notes, use the keys ` Shift``+``2 `&ndash;`8`:
 
 {:.keymap.bhatkhande-punjabi}
@@ -147,42 +101,13 @@ Additionally, <code>`</code>,`!`, and`~` can be used for a lower version of Chau
 | Lower Chaugun (4) | <code>`</code> |` |
 | Lower Chhatgun (6) | `!` | ! |
 | Lower Athgun (8) | `~` | ~ |
-=======
-To make a chhand of 2-8 notes, use the keys `Shift``+``2`&ndash;`8`:
-
-{:.keymap.bhatkhande-punjabi}
-| Chhand Size  | Key | Bhatkhande |
-| ------------ | --- | ---------- |
-| Dugun (2)    | `@` | @          |
-| Tigun (3)    | `#` | #          |
-| Chaugun (4)  | `$` | $          |
-| Pachgun (5)  | `%` | %          |
-| Chhatgun (6) | `^` | ^          |
-| Satgun (7)   | `&` | &          |
-| Athgun (8)   | `*` | *          |
-
-Additionally, <code>`</code>, `!`, and `~` can be used for a lower version of Chaugun (4), Chhatgun (6), and Athgun (8) to allow for larger groupings.
-
-{:.keymap.bhatkhande-punjabi}
-| Chhand Size        | Key                | Bhatkhande |
-| ------------------ | ------------------ | ---------- |
-| Lower Chaugun (4)  | <code>`</code> | ` |
-| Lower Chhatgun (6) | `!`                | !          |
-| Lower Athgun (8)   | `~`                | ~          |
->>>>>>> 94a5bae8c99fbeb7c741eeb19cba46d37031cea8
 
 This is an example of a chhand showing complicated layakari:
 
 {:.keymap.bhatkhande-punjabi}
-<<<<<<< HEAD
 | Key Strokes | Bhatkhande |
 | ----------------------------------------------------------------------- | ---------- |
 | `` ~#srg%mpdnsu !@sr$gmpd `qswrWgem `` | ~#srg%mpdnsu !@sr\$gmpd `qswrWgem |
-=======
-| Key Strokes                                                             | Bhatkhande |
-| ----------------------------------------------------------------------- | ---------- |
-| ``~#srg%mpdnsu !@sr$gmpd `qswrWgem`` | ~#srg%mpdnsu !@sr$gmpd `qswrWgem |
->>>>>>> 94a5bae8c99fbeb7c741eeb19cba46d37031cea8
 
 ## Meend
 
@@ -193,38 +118,21 @@ A valid Meend sequence is that which begins with the Meend Start character `q`, 
 {:.keymap.bhatkhande-punjabi}
 | Meend Character | Key | Bhatkhande |
 | --------------- | --- | ---------- |
-<<<<<<< HEAD
 | Meend Start | `q` | q |
 | Ghaseet Start | `Q` | Q |
 | Meend Continue | `w` | w |
 | Meend Stroke | `W` | W |
 | Meend End | `e` | e |
 | Ghaseet End | `E` | E |
-=======
-| Meend Start     | `q` | q          |
-| Ghaseet Start   | `Q` | Q          |
-| Meend Continue  | `w` | w          |
-| Meend Stroke    | `W` | W          |
-| Meend End       | `e` | e          |
-| Ghaseet End     | `E` | E          |
->>>>>>> 94a5bae8c99fbeb7c741eeb19cba46d37031cea8
 
 The following examples illustrate how a valid Meend sequence is visually cohesive in its representation of a continuous pull:
 
 {:.keymap.bhatkhande-punjabi}
-<<<<<<< HEAD
 | Key Strokes | Bhatkhande |
 | ------------ | ---------- |
 | `qswrwgem` | qswrwgem |
 | `qger` | qger |
 | `qRwGwmep` | qRwGwmep |
-=======
-| Key Strokes  | Bhatkhande |
-| ------------ | ---------- |
-| `qswrwgem`   | qswrwgem   |
-| `qger`       | qger       |
-| `qRwGwmep`   | qRwGwmep   |
->>>>>>> 94a5bae8c99fbeb7c741eeb19cba46d37031cea8
 | `qDlwNlWser` | qDlwNlWser |
 
 ## Murki
@@ -234,28 +142,17 @@ Parentheses around a note indicate a quick movement from the note to the adjesce
 {:.keymap.bhatkhande-punjabi}
 | Key Strokes | Bhatkhande |
 | ----------- | ---------- |
-<<<<<<< HEAD
 | `(p)` | (p) |
-=======
-| `(p)`       | (p)        |
->>>>>>> 94a5bae8c99fbeb7c741eeb19cba46d37031cea8
 
 ## Kan
 
 Kan and Krintan rely on the word processing ability to **superscript**. Since the width of these superscripted characters depends on the word processor, in certain cases it can break the monospacing of the font.
 
 {:.keymap.bhatkhande-punjabi}
-<<<<<<< HEAD
 | Key Strokes | Bhatkhande |
 | ------------------------ | -------------- |
 | ` <sup>``m``</sup>``p ` | <sup>m</sup>p |
 | ` d``<sup>``g``</sup>``m ` | d<sup>g</sup>m |
-=======
-| Key Strokes              | Bhatkhande     |
-| ------------------------ | -------------- |
-| `<sup>``m``</sup>``p`    | <sup>m</sup>p  |
-| `d``<sup>``g``</sup>``m` | d<sup>g</sup>m |
->>>>>>> 94a5bae8c99fbeb7c741eeb19cba46d37031cea8
 
 The ability to add predictable superscripting is planned for the future.
 
@@ -264,20 +161,13 @@ The ability to add predictable superscripting is planned for the future.
 Krintan is Kan repeated twice, thrice, four times in a single stroke of the Mizrab, represented by the numeral after the Kan note.
 
 {:.keymap.bhatkhande-punjabi}
-<<<<<<< HEAD
 | Key Strokes | Bhatkhande |
 | ---------------------- | -------------- |
 | ` <sup>``m3``</sup>``p ` | <sup>m3</sup>p |
-=======
-| Key Strokes            | Bhatkhande     |
-| ---------------------- | -------------- |
-| `<sup>``m3``</sup>``p` | <sup>m3</sup>p |
->>>>>>> 94a5bae8c99fbeb7c741eeb19cba46d37031cea8
 
 ## Miscellaneous
 
 {:.keymap.bhatkhande-punjabi}
-<<<<<<< HEAD
 | Type | Key | Bhatkhande |
 | --------- | --- | ---------- |
 | Sam | `x` | x |
@@ -294,45 +184,18 @@ Krintan is Kan repeated twice, thrice, four times in a single stroke of the Mizr
 | 7 | `7` | 7 |
 | 8 | `8` | 8 |
 | 9 | `9` | 9 |
-=======
-| Type      | Key | Bhatkhande |
-| --------- | --- | ---------- |
-| Sam       | `x` | x          |
-| Long Dash | `_` | _          |
-| Comma     | `,` | ,          |
-| Plus      | `+` | +          |
-| 0         | `0` | 0          |
-| 1         | `1` | 1          |
-| 2         | `2` | 2          |
-| 3         | `3` | 3          |
-| 4         | `4` | 4          |
-| 5         | `5` | 5          |
-| 6         | `6` | 6          |
-| 7         | `7` | 7          |
-| 8         | `8` | 8          |
-| 9         | `9` | 9          |
->>>>>>> 94a5bae8c99fbeb7c741eeb19cba46d37031cea8
 
 # Layout
 
 <div class="horizontal-scroll-block" markdown="block">
 
 {:.composition.bhatkhande-punjabi}
-<<<<<<< HEAD
 |||`g @pp g p`|`- @nn d n`|
 |||`[ \ [ ]`|`- \ [ ]`|
 |`su - d n`|`su ru su -`|`su @gugu @gugu @mumu`|`ru @rusu @-su d`|
 |`[ - [ ]`|`[ ] [ -`|`[ \ \ \`|`[ @'[ @-' [`|
 |`p @mm @gg @mm`|`r @rs @-s s`|||
 |`[ \ \ \`|`[ @'[ @-' [`|||
-=======
-|||`g  @pp g  p `|`-  @nn d  n `|
-|||`[  \ [  ] `|`-  \ [  ] `|
-|`su  -  d  n `|`su  ru  su  - `|`su  @gugu @gugu @mumu`|`ru  @rusu @-su d `|
-|`[  -  [  ] `|`[  ]  [  - `|`[  \ \ \`|`[  @'[ @-' [`|
-|`p  @mm @gg @mm`|`r  @rs @-s s `|||
-|`[  \ \ \`|`[  @'[ @-' [ `|||
->>>>>>> 94a5bae8c99fbeb7c741eeb19cba46d37031cea8
 |`x`|`2`|`0`|`3`|
 
 </div>
@@ -349,17 +212,10 @@ The final row represents the starting beat for each subdivision. The rest are ca
 The zero character sets of Chhand and Meend, they can be typed in any order and have the same visual effect. For example, pay attention to the first three characters in the following:
 
 {:.keymap.bhatkhande-punjabi}
-<<<<<<< HEAD
 | Key Strokes | Bhatkhande |
 | -------------------------------------- | ---------- |
 | <code>`@qswr@Wgem</code> |`@qswr@Wgem |
 | <code>`q@swr@Wgem</code> |`q@swr@Wgem |
-=======
-| Key Strokes                            | Bhatkhande |
-| -------------------------------------- | ---------- |
-| <code>`@qswr@Wgem</code> | `@qswr@Wgem |
-| <code>`q@swr@Wgem</code> | `q@swr@Wgem |
->>>>>>> 94a5bae8c99fbeb7c741eeb19cba46d37031cea8
 | <code>@`qswr@Wgem</code> | @`qswr@Wgem |
 | <code>@q`swr@Wgem</code> | @q`swr@Wgem |
 | <code>q`@swr@Wgem</code> | q`@swr@Wgem |
@@ -372,21 +228,13 @@ Of these, the first one should be considered canonical. The characters should be
 For usage on the web, add the following block to the `<head>` section:
 
 ```html
-<<<<<<< HEAD
 <link rel="stylesheet" href="https://omescribe.com/webfonts/omenad-fonts.css" />
-=======
-<link rel="stylesheet" href="https://omescribe.com/webfonts/omenad-fonts.css">
->>>>>>> 94a5bae8c99fbeb7c741eeb19cba46d37031cea8
 ```
 
 You can then use the `.ome-bhatkhande-punjabi` class on any element to use the font:
 
 ```html
-<<<<<<< HEAD
 <code class="ome-bhatkhande-punjabi">g @pp g p</code>
-=======
-<code class="ome-bhatkhande-punjabi">g  @pp g  p</code>
->>>>>>> 94a5bae8c99fbeb7c741eeb19cba46d37031cea8
 ```
 
 It is recommended to use `<pre>` or `<code>` to preserve whitespace in the compositions.
@@ -399,18 +247,12 @@ For writing a full composition as shown above, a table is required, for example:
     <tr>
       <td></td>
       <td></td>
-<<<<<<< HEAD
       <td><code>g @pp g p </code></td>
       <td><code>- @nn d n </code></td>
-=======
-      <td><code>g  @pp g  p </code></td>
-      <td><code>-  @nn d  n </code></td>
->>>>>>> 94a5bae8c99fbeb7c741eeb19cba46d37031cea8
     </tr>
     <tr>
       <td></td>
       <td></td>
-<<<<<<< HEAD
       <td><code>[ \ [ ] </code></td>
       <td><code>- \ [ ] </code></td>
     </tr>
@@ -429,37 +271,12 @@ For writing a full composition as shown above, a table is required, for example:
     <tr>
       <td><code>p @mm @gg @mm</code></td>
       <td><code>r @rs @-s s </code></td>
-=======
-      <td><code>[  \ [  ] </code></td>
-      <td><code>-  \ [  ] </code></td>
-    </tr>
-    <tr>
-      <td><code>su  -  d  n </code></td>
-      <td><code>su  ru  su  - </code></td>
-      <td><code>su  @gugu @gugu @mumu</code></td>
-      <td><code>ru  @rusu @-su d </code></td>
-    </tr>
-    <tr>
-      <td><code>[  -  [  ] </code></td>
-      <td><code>[  ]  [  - </code></td>
-      <td><code>[  \ \ \</code></td>
-      <td><code>[  @'[ @-' [</code></td>
-    </tr>
-    <tr>
-      <td><code>p  @mm @gg @mm</code></td>
-      <td><code>r  @rs @-s s </code></td>
->>>>>>> 94a5bae8c99fbeb7c741eeb19cba46d37031cea8
       <td></td>
       <td></td>
     </tr>
     <tr>
-<<<<<<< HEAD
       <td><code>[ \ \ \</code></td>
       <td><code>[ @'[ @-' [ </code></td>
-=======
-      <td><code>[  \ \ \</code></td>
-      <td><code>[  @'[ @-' [ </code></td>
->>>>>>> 94a5bae8c99fbeb7c741eeb19cba46d37031cea8
       <td></td>
       <td></td>
     </tr>
@@ -491,11 +308,7 @@ table.composition {
 
   &.bhatkhande-punjabi td > code {
     white-space: pre;
-<<<<<<< HEAD
     font-family: "ome_bhatkhande_punjabi";
-=======
-    font-family: 'ome_bhatkhande_punjabi';
->>>>>>> 94a5bae8c99fbeb7c741eeb19cba46d37031cea8
   }
 }
 ```
