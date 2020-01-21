@@ -1,14 +1,14 @@
 # main links
 main:
-  - title: "Usage"
+  - title: 'Usage'
     url: /usage/
   # - title: "History"
   #   url: /history/
   - title: Download
     url: http://rajada.in/omenadfonts210
-  - title: "GitHub"
+  - title: 'GitHub'
     url: https://github.com/omenad/fonts
-  - title: "Omenad"
+  - title: 'Omenad'
     url: http://omenad.net
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
@@ -28,6 +28,8 @@ sidebar:
         url: /ome-bhatkhande-hindi/
       - title: Ome Bhatkhande English
         url: /ome-bhatkhande-english/
+      - title: Ome Bhatkhande Punjabi
+        url: /ome-bhatkhande-punjabi/
   - title: Usage
     children:
       - title: Desktop
