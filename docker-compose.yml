@@ -1,0 +1,10 @@
+version: "3.7"
+services:
+
+    docs:
+        image: jekyll/jekyll:3.8.5
+        ports:
+            - 4000:4000
+        volumes:
+            - ./docs:/srv/jekyll
+        command: jekyll serve --incremental
