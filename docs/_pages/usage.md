@@ -29,7 +29,7 @@ The fonts are free for personal, academic, and open-source use. For commercial p
 For usage on the web, add the following block to the `<head>` section:
 
 ```html
-<link rel="stylesheet" href="https://omescribe.com/webfonts/omenad-fonts.css">
+<link rel="stylesheet" href="https://omenad-webfonts.netlify.com/fonts.css">
 ```
 
 You can then use the [`.ome-swarlipi`](/fonts/ome-swarlipi), [`.ome-bhatkhande-hindi`](/fonts/ome-bhatkhande-hindi), [`.ome-bhatkhande-english`](/fonts/ome-bhatkhande-english), or [`.ome-bhatkhande-punjabi`](/fonts/ome-bhatkhande-punjabi) CSS classes to render in the respective font.
