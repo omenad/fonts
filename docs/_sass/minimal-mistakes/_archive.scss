@@ -255,6 +255,11 @@
       margin-bottom: 2em;
     }
 
+    a {
+      color: $darker-gray;
+      text-decoration: none;
+    }
+
     @include breakpoint($small) {
       .archive__item-teaser {
         float: left;
