@@ -217,7 +217,7 @@ In the third row we use spaces for the whitespace. Each space in the font has th
 For usage on the web, add the following block to the `<head>` section:
 
 ```html
-<link rel="stylesheet" href="https://omescribe.com/webfonts/omenad-fonts.css">
+<link rel="stylesheet" href="https://omenad-webfonts.netlify.com/fonts.css">
 ```
 
 You can then use the `.ome-swarlipi` class on any element to use the font:

@@ -229,7 +229,7 @@ Of these, the first one should be considered canonical. The characters should be
 For usage on the web, add the following block to the `<head>` section:
 
 ```html
-<link rel="stylesheet" href="https://omescribe.com/webfonts/omenad-fonts.css">
+<link rel="stylesheet" href="https://omenad-webfonts.netlify.com/fonts.css">
 ```
 
 You can then use the `.ome-bhatkhande-english` class on any element to use the font:
