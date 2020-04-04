@@ -1,3 +1,8 @@
+## 2.2.1
+
+- Fix `g`, `G` for Ome Bhatkhande Punjabi
+  [#26](https://github.com/omenad/fonts/pull/26)
+
 ## 2.2.0
 
 - Add Punjabi version of Bhatkhande font.
