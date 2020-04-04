@@ -42,12 +42,6 @@
       <point x="700" y="342" type="qcurve"/>
     </contour>
     <contour>
-      <point x="1413" y="88" type="move" smooth="yes"/>
-    </contour>
-    <contour>
-      <point x="1262" y="-2" type="move" smooth="yes"/>
-    </contour>
-    <contour>
       <point x="1209" y="-400" type="line"/>
       <point x="249" y="-400" type="line"/>
       <point x="249" y="-312" type="line"/>
