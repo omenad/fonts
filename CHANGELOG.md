@@ -1,3 +1,10 @@
+## 2.2.0
+
+- Add Punjabi version of Bhatkhande font.
+  [#21](https://github.com/omenad/fonts/issues/21)
+- Add User and Developer instructions to README.
+  [#22](https://github.com/omenad/fonts/issues/22)
+
 ## 2.1.0
 
 - Add `quoteright` as a duplicate of `quotesingle` to account for Smart Quotes
