@@ -227,7 +227,7 @@ Of these, the first one should be considered canonical. The characters should be
 For usage on the web, add the following block to the `<head>` section:
 
 ```html
-<link rel="stylesheet" href="https://omenad-webfonts.netlify.com/fonts.css">
+<link rel="stylesheet" href="https://webfonts.omenad.net/fonts.css">
 ```
 
 You can then use the `.ome-bhatkhande-punjabi` class on any element to use the font:
