@@ -11,7 +11,7 @@ _include: ["_pages"]
 minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Download Settings
-download_url             : "http://rajada.in/omenadfonts221"
+download_url             : "https://rajada.in/omenadfonts221"
 
 # Site Settings
 locale                   : "en"
