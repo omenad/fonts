@@ -293,24 +293,24 @@ For writing a full composition as shown above, a table is required, for example:
 
 with additional styling provided by:
 
-```scss
+```css
 table.composition {
   border: none;
+}
 
-  td {
-    width: 25%;
-    border: none;
-    border-right: 1px solid black;
-  }
+table.composition td {
+  width: 25%;
+  border: none;
+  border-right: 1px solid black;
+}
 
-  td:last-child {
-    border-right: none;
-  }
+table.composition td:last-child {
+  border-right: none;
+}
 
-  &.bhatkhande-english td > code {
-    white-space: pre;
-    font-family: 'ome_bhatkhande_english';
-  }
+table.composition.bhatkhande-english td > code {
+  white-space: pre;
+  font-family: 'ome_bhatkhande_english';
 }
 ```
 
