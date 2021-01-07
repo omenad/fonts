@@ -1,6 +1,6 @@
 # Omenad Fonts
 
-[![Downloads for All Releases](https://img.shields.io/github/downloads/omenad/fonts/total.svg)](https://www.somsubhra.com/github-release-stats/?username=omenad&repository=fonts)
+[![Downloads for All Releases](https://img.shields.io/github/downloads/omenad/fonts/total.svg)](https://somsubhra.github.io/github-release-stats/?username=omenad&repository=fonts&page=1&per_page=5)
 [![Latest Release](https://img.shields.io/github/release/omenad/fonts.svg)](https://github.com/omenad/fonts/releases/latest)
 
 Font for writing Indian Classical Music.
