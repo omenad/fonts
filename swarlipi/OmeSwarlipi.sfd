@@ -3094,6 +3094,7 @@ SplineSet
  772 989 772 989 804.5 1002.5 c 128,-1,22
  837 1016 837 1016 877 1016 c 0,0,1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: divide

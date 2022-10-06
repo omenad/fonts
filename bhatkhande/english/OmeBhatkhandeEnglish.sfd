@@ -4386,6 +4386,7 @@ SplineSet
  527 821 527 821 471 812 c 1,41,-1
  464 849 l 1,0,-1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: divide

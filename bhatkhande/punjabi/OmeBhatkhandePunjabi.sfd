@@ -1867,6 +1867,7 @@ SplineSet
  710 325 710 325 710 376 c 2,40,-1
  710 740 l 1,28,-1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: asciicircum
@@ -2074,6 +2075,7 @@ SplineSet
  703 260 703 260 730 342 c 1,33,-1
  730 724 l 1,23,24
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: h
