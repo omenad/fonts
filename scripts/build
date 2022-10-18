@@ -2,8 +2,17 @@
 
 set -e
 
-SOURCE=$(find . -type f -name *.sfd | xargs)
+FONTS=$(find . -type f -name *.sfd | xargs)
 
 docker run --rm -v $PWD:/home/fontdev sungsit/fontforge \
     "/bin/bash" "-c" \
-    "./scripts/convert.pe $SOURCE"
+    "./scripts/convert.pe --format ttf --output ttf/ $FONTS"
+
+for FONT in $FONTS
+do
+    OUTPUT=$(dirname $FONT)
+
+    docker run --rm -v $PWD:/home/fontdev sungsit/fontforge \
+        "/bin/bash" "-c" \
+        "./scripts/convert.pe --format ufo --output $OUTPUT/ $FONT"
+done
