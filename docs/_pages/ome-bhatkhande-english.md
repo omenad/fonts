@@ -48,15 +48,15 @@ In Indian Music, Ma is the only note with a Sharp variant. Re, Ga, Dha, and Ni h
 
 ### Octaves
 
-A dot symbol `·` above or below a note signifies upper or lower octave respectively. Two dots symbol `··` above or below a note signifies two octaves upper or lower respectively. The absence of the dot signifies middle octave.
+A dot symbol `·` above or below a note signifies upper (Tar) or lower (Mandra) octave respectively. The two dots symbol `··` above or below a note signifies two octaves upper (Ati Tar) or lower (Ati Mandra) respectively. The absence of the dot signifies middle octave.
 
 {:.keymap.bhatkhande-english}
-| Note             | Key  | Bhatkhande |
-|------------------|------|------------|
-| Lower Sharp Ma   | `Ml` | Ml         |
-| Middle Pa        | `p`  | p          |
-| Upper Flat Dha   | `Du` | Du         |
-| UpUpper Flat Gha | `GU` | GU         |
+| Note                  | Key  | Bhatkhande |
+|-----------------------|------|------------|
+| Lower Sharp Ma        | `Ml` | Ml         |
+| Middle Pa             | `p`  | p          |
+| Upper Flat Dha        | `Du` | Du         |
+| Double Upper Flat Gha | `GU` | GU         |
 
 ## Mizrab Ke Bol (Strokes)
 
