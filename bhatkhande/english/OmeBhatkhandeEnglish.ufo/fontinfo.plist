@@ -11,7 +11,7 @@
     <key>versionMajor</key>
     <integer>1</integer>
     <key>versionMinor</key>
-    <integer>0</integer>
+    <integer>1</integer>
     <key>copyright</key>
     <string>Omenad 2006-2017</string>
     <key>unitsPerEm</key>
@@ -134,7 +134,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.</string>
     <key>openTypeNameLicenseURL</key>
     <string>http://scripts.sil.org/OFL</string>
     <key>openTypeNameVersion</key>
-    <string>Version 1.00 Aug 12, 2017</string>
+    <string>Version 1.01 Oct 5, 2022</string>
     <key>openTypeNameUniqueID</key>
     <string>OmeBhatkhandeEng:1.00</string>
     <key>openTypeNameDescription</key>
