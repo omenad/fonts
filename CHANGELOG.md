@@ -1,3 +1,8 @@
+## 2.3.0
+
+- Add `U`, `L` for Ati Tar and Ati Mandra in all fonts
+  [#50](https://github.com/omenad/fonts/pull/50)
+
 ## 2.2.1
 
 - Fix `g`, `G` for Ome Bhatkhande Punjabi
