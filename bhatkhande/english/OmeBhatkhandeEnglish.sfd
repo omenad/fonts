@@ -2084,7 +2084,7 @@ EndChar
 
 StartChar: U
 Encoding: 85 85 56
-Width: 2
+Width: 0
 Flags: W
 LayerCount: 2
 Fore

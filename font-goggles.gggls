@@ -1,0 +1,52 @@
+{
+  "fonts": [
+    {
+      "path": "ttf/OmeBhatkhandeEnglish.ttf"
+    },
+    {
+      "path": "ttf/OmeBhatkhandeHindi.ttf"
+    },
+    {
+      "path": "ttf/OmeBhatkhandePunjabi.ttf"
+    },
+    {
+      "path": "ttf/OmeSwarlipi.ttf"
+    }
+  ],
+  "textSettings": {
+    "text": "su sU ml mL `@DLr@gm qsUwWrUEMU",
+    "textFilePath": null,
+    "textFileIndex": 0,
+    "shouldApplyBiDi": true,
+    "direction": null,
+    "script": null,
+    "language": null,
+    "alignment": null,
+    "features": {},
+    "varLocation": {},
+    "relativeFontSize": 0.25,
+    "relativeHBaseline": 0.3546029281616211,
+    "relativeVBaseline": 0.5,
+    "relativeMargin": 0.14113643646240234,
+    "enableColor": true
+  },
+  "uiSettings": {
+    "windowPosition": [
+      57.0,
+      116.0,
+      1400.0,
+      728.0
+    ],
+    "fontListItemSize": 150,
+    "fontListShowFontFileName": true,
+    "characterListVisible": true,
+    "characterListSize": 98.0,
+    "glyphListVisible": true,
+    "glyphListSize": 226.0,
+    "compileOutputVisible": false,
+    "compileOutputSize": 80.0,
+    "formattingOptionsVisible": true,
+    "feaVarTabSelection": "options",
+    "showHiddenAxes": false
+  }
+}
