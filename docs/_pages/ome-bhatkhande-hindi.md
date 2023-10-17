@@ -148,6 +148,12 @@ Parentheses around a note indicate a quick movement from the note to the adjesce
 
 ## Kan
 
+There are two ways to write kan:
+1. Using superscript
+2. Using special key strokes
+
+### 1. Kan using superscript
+
 Kan and Krintan rely on the word processing ability to **superscript**. Since the width of these superscripted characters depends on the word processor, in certain cases it can break the monospacing of the font.
 
 {:.keymap.bhatkhande-hindi}
@@ -156,7 +162,26 @@ Kan and Krintan rely on the word processing ability to **superscript**. Since th
 | `<sup>``m``</sup>``p`    | <sup>m</sup>p       |
 | `d``<sup>``g``</sup>``m` | d<sup>g</sup>m      |
 
-The ability to add predictable superscripting is planned for the future.
+### 2. Kan using special key strokes
+
+You must take care, as this notation is not matching the spelling of the swaras.
+
+{:.keymap.bhatkhande-hindi}
+| Key Strokes | Bhatkhande          |
+|-------------|---------------------|
+| `bnl`       | bnl                 |
+| `Cs`        | Cs                  |
+| `cs`        | cs                  |
+| `Fs`        | Fs                  |
+| `fs`        | fs                  |
+| `hs`        | hs                  |
+| `Hs`        | Hs                  |
+| `is`        | is                  |
+| `Jp`        | Jp                  |
+| `jp`        | jp                  |
+| `Kp`        | Kp                  |
+| `kp`        | kp                  |
+| `bup`       | bup                 |
 
 ## Krintan
 
