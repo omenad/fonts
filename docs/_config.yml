@@ -92,9 +92,9 @@ social:
 
 # Analytics
 analytics:
-  provider               : "google-universal" # false (default), "google", "google-universal", "custom"
+  provider               : "google-gtag" # false (default), "google", "google-universal", "custom"
   google:
-    tracking_id          : "UA-104408252-1"
+    tracking_id          : "G-M4EBQDZXQJ"
 
 
 # Site Author
@@ -105,7 +105,7 @@ author:
   location         :
   email            :
   uri              :
-  home             : "http://omenad.net"
+  home             : "https://omenad.net"
   bitbucket        :
   codepen          :
   dribbble         :
