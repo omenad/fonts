@@ -1,6 +1,13 @@
 version: "3.7"
 services:
 
+    fontforge:
+        image: omenad-fontforge
+        build:
+            dockerfile: Dockerfile
+        volumes:
+            - .:/usr/local/src
+    
     docs:
         image: jekyll/jekyll:3.8.5
         ports:
