@@ -22,8 +22,6 @@
     <integer>-410</integer>
     <key>italicAngle</key>
     <real>0</real>
-    <key>note</key>
-    <string></string>
     <key>openTypeHeadCreated</key>
     <string>2007/10/10 15:11:11</string>
     <key>openTypeHheaAscender</key>
@@ -260,5 +258,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.</string>
     <integer>150</integer>
     <key>postscriptUnderlinePosition</key>
     <integer>-292</integer>
+    <key>guidelines</key>
+    <array/>
   </dict>
 </plist>
