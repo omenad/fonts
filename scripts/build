@@ -1,20 +1,37 @@
 #!/usr/bin/env bash
 
-set -e
+set -ex
 
-FONTS=$(find . -type f -name *.sfd | xargs)
-
+# Build fontforge docker image
 docker compose build
 
-docker compose run --rm fontforge \
-    "/bin/sh" "-c" \
-    "./scripts/convert.pe --format ttf --output ttf/ $FONTS"
-
-for FONT in $FONTS
+# Build Ome Bhatkhande fonts for each language
+for LANG in hindi english punjabi
 do
-    OUTPUT=$(dirname $FONT)
-
     docker compose run --rm fontforge \
         "/bin/sh" "-c" \
-        "./scripts/convert.pe --format ufo --output $OUTPUT/ $FONT"
+        "cd bhatkhande && \
+            ./build.py $LANG && \
+        cd .. && \
+        ./scripts/convert.py \
+            --format ttf \
+            --output ttf/ \
+            bhatkhande/$LANG/OmeBhatkhande*.sfd && \
+        ./scripts/convert.py \
+            --format ufo \
+            --output bhatkhande/$LANG/ \
+            bhatkhande/$LANG/OmeBhatkhande*.sfd && \
+        rm bhatkhande/$LANG/OmeBhatkhande*.sfd"
 done
+
+# Build Ome Swarlipi font
+docker compose run --rm fontforge \
+    "/bin/sh" "-c" \
+    "./scripts/convert.py \
+        --format ttf \
+        --output ttf/ \
+        swarlipi/OmeSwarlipi.sfd && \
+    ./scripts/convert.py \
+        --format ufo \
+        --output swarlipi/ \
+        swarlipi/OmeSwarlipi.sfd"
