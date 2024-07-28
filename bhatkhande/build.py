@@ -56,9 +56,13 @@ def main():
     
     # Define the glyph list for replacement
     glyph_list = [
+        # Numerals
         '1', '2', '3', '4', '5', '6', '7', '8', '9', '0',
+        # Regular Notes
         's', 'r', 'g', 'm', 'p', 'd', 'n',
+        # Variant Notes
              'R', 'G', 'M',      'D', 'N',
+        # Strokes
         '[', ']', ';', "'", '\\',
     ]
 
