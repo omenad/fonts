@@ -1,13 +1,16 @@
-#!/usr/bin/python3
+#!/usr/bin/python
 
 import argparse
 import fontforge
-from pathlib import Path
+import os.path
 
 
 def convert(input_sfd, format, output_dir):
     sfd = fontforge.open(input_sfd)
-    output_file = f"{output_dir}/{Path(input_sfd).stem}.{format}"
+    output_file = "{}/{}.{}".format(
+        output_dir,
+        os.path.splitext(os.path.basename(input_sfd))[0],
+        format)
 
     sfd.generate(output_file)
 
@@ -25,13 +28,13 @@ def main():
     args = parser.parse_args()
 
     if args.format not in ["ttf", "ufo"]:
-        raise f"Invalid format: {args.format}"
+        raise "Invalid format: {}".format(args.format)
 
-    if not Path(args.output).is_dir:
-        raise f"Invalid output directory: {args.output}"
+    if not os.path.exists(args.output):
+        raise "Invalid output directory: {}".format(args.output)
 
-    if not Path(args.input_sfd).is_file or not args.input_sfd.endswith(".sfd"):
-        raise f"Invalid input SFD file: {args.input_sfd}"
+    if not os.path.exists(args.input_sfd) or not args.input_sfd.endswith(".sfd"):
+        raise "Invalid input SFD file: {}".format(args.input_sfd)
 
     convert(args.input_sfd, args.format, args.output)
 

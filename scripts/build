@@ -8,7 +8,7 @@ docker compose build
 # Build Ome Bhatkhande fonts for each language
 for LANG in hindi english punjabi
 do
-    docker compose run --rm fontforge \
+    docker run --rm -v $PWD:/home/fontdev sungsit/fontforge \
         "/bin/sh" "-c" \
         "cd bhatkhande && \
             ./build.py $LANG && \
@@ -25,7 +25,7 @@ do
 done
 
 # Build Ome Swarlipi font
-docker compose run --rm fontforge \
+docker run --rm -v $PWD:/home/fontdev sungsit/fontforge \
     "/bin/sh" "-c" \
     "./scripts/convert.py \
         --format ttf \

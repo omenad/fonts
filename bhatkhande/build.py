@@ -1,10 +1,9 @@
-#!/usr/bin/python3
+#!/usr/bin/python
 
 import argparse
 import shutil
 import fontforge
-
-from pathlib import Path
+import os.path
 
 
 def replace_glyphs(
@@ -50,9 +49,9 @@ def main():
     lang_C = lang.capitalize()
 
     # Check if language files exist where expected
-    lang_sfd = f'{lang}/{lang_C}.sfd'
-    if not Path(lang_sfd).is_file():
-        raise f'Could not find language file: {lang_sfd}'
+    lang_sfd = '{}/{}.sfd'.format(lang, lang_C)
+    if not os.path.exists(lang_sfd):
+        raise 'Could not find language file: {}'.format(lang_sfd)
     
     # Define the glyph list for replacement
     glyph_list = [
@@ -68,7 +67,7 @@ def main():
 
     # Paths to base SFD file
     base_sfd = 'base/OmeBhatkhandeBase.sfd'
-    output_sfd = f'{lang}/OmeBhatkhande{lang_C}.sfd'
+    output_sfd = '{}/OmeBhatkhande{}.sfd'.format(lang, lang_C)
 
     # Use the base font and the language font to generate an output font
     replace_glyphs(base_sfd, lang_sfd, output_sfd, lang_C, glyph_list)
