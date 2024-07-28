@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="fraction" format="1">
-  <advance width="1582"/>
+<glyph name="fraction" format="2">
+  <advance width="342"/>
   <unicode hex="2044"/>
   <unicode hex="2215"/>
 </glyph>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="periodcentered" format="1">
-  <advance width="1582"/>
+<glyph name="periodcentered" format="2">
+  <advance width="569"/>
   <unicode hex="00B7"/>
   <unicode hex="2219"/>
 </glyph>

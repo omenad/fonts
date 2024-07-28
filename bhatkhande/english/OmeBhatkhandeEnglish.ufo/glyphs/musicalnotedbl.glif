@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="musicalnotedbl" format="1">
-  <advance width="1582"/>
+<glyph name="musicalnotedbl" format="2">
+  <advance width="1536"/>
   <unicode hex="266B"/>
 </glyph>

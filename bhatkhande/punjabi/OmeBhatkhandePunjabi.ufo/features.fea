@@ -4,20 +4,20 @@ languagesystem latn dflt;
 # GPOS 
 
 
-lookup kernHorizontalKerninginLatinloo {
+lookup kernHorizontalKerninginLatinlookup0 {
   lookupflag 0;
     pos \M \u 190;
     pos \N \u 100;
     pos \R \l 100;
     pos \n \u 100;
     pos \r \l 100;
-} kernHorizontalKerninginLatinloo;
+} kernHorizontalKerninginLatinlookup0;
 
 feature kern {
 
  script latn;
      language dflt ;
-      lookup kernHorizontalKerninginLatinloo;
+      lookup kernHorizontalKerninginLatinlookup0;
 } kern;
 #Mark attachment classes (defined in GDEF, used in lookupflags)
 

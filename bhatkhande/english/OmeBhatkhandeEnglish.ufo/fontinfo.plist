@@ -22,8 +22,6 @@
     <integer>-410</integer>
     <key>italicAngle</key>
     <real>0</real>
-    <key>note</key>
-    <string></string>
     <key>openTypeHeadCreated</key>
     <string>2007/10/10 15:11:11</string>
     <key>openTypeHheaAscender</key>
@@ -134,11 +132,11 @@ OTHER DEALINGS IN THE FONT SOFTWARE.</string>
     <key>openTypeNameLicenseURL</key>
     <string>http://scripts.sil.org/OFL</string>
     <key>openTypeNameVersion</key>
-    <string>Version 1.01 Oct 5, 2022</string>
+    <string>Version 1.00 Aug 12, 2017</string>
     <key>openTypeNameUniqueID</key>
-    <string>OmeBhatkhandeEng:1.00</string>
+    <string>OmeBhatkhandeHin:1.00</string>
     <key>openTypeNameDescription</key>
-    <string>For writing Indian Classical Music in Bhatkhande script using Roman characters</string>
+    <string>For writing Indian Classical Music in Bhatkhande script using Devanagari characters</string>
     <key>openTypeNameSampleText</key>
     <string>~#qswRwG%wMepDlNu ;'[]</string>
     <key>openTypeOS2Panose</key>
@@ -260,5 +258,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.</string>
     <integer>150</integer>
     <key>postscriptUnderlinePosition</key>
     <integer>-292</integer>
+    <key>guidelines</key>
+    <array/>
   </dict>
 </plist>
