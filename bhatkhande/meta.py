@@ -4,7 +4,7 @@ BASE = {
     'Copyright': 'Omenad 2006-2024',
     'Family': 'Ome Bhatkhande Base',
     'PostScriptName': 'OmeBhatkhandeBase',
-    'Version': 2.00,
+    'Version': 3.00,
     'Date': 'Sep 2, 2024',
     'Designer': 'Terence Tuhinanshu',
     'Designer URL': 'https://tuhinanshu.com',
