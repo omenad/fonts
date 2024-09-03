@@ -8,12 +8,8 @@
     <string>Regular</string>
     <key>styleMapFamilyName</key>
     <string>Ome Bhatkhande Punjabi</string>
-    <key>versionMajor</key>
-    <integer>1</integer>
-    <key>versionMinor</key>
-    <integer>1</integer>
     <key>copyright</key>
-    <string>Omenad 2006-2020, Baljeet Singh</string>
+    <string>Omenad 2006-2024, Baljeet Singh</string>
     <key>unitsPerEm</key>
     <integer>2048</integer>
     <key>ascender</key>
@@ -33,11 +29,11 @@
     <key>openTypeHheaLineGap</key>
     <integer>0</integer>
     <key>openTypeNameDesigner</key>
-    <string>Terence Tuhinanshu</string>
+    <string>Terence Tuhinanshu, Baljeet Singh</string>
     <key>openTypeNameDesignerURL</key>
-    <string>http://www.tuhinanshu.com</string>
+    <string>https://tuhinanshu.com</string>
     <key>openTypeNameLicense</key>
-    <string>Copyright (c) 2017, Omenad (http://omenad.net),
+    <string>Copyright (c) 2024, Omenad (http://omenad.net),
 with Reserved Font Name Ome Bhatkhande.
 
 This Font Software is licensed under the SIL Open Font License, Version 1.1.
@@ -58,7 +54,7 @@ with others.
 
 The OFL allows the licensed fonts to be used, studied, modified and
 redistributed freely as long as they are not sold by themselves. The
-fonts, including any derivative works, can be bundled, embedded, 
+fonts, including any derivative works, can be bundled, embedded,
 redistributed and/or sold with any software provided that any reserved
 names are not used by derivative works. The fonts and derivatives,
 however, cannot be released under any other type of license. The
@@ -134,13 +130,13 @@ OTHER DEALINGS IN THE FONT SOFTWARE.</string>
     <key>openTypeNameLicenseURL</key>
     <string>http://scripts.sil.org/OFL</string>
     <key>openTypeNameVersion</key>
-    <string>Version 1.01 Oct 5, 2022</string>
+    <string>Version 3.0 Sep 2, 2024</string>
     <key>openTypeNameUniqueID</key>
-    <string>OmeBhatkhandePun:1.00</string>
+    <string>OmeBhatkhandePun:3.0</string>
     <key>openTypeNameDescription</key>
-    <string>For writing Indian Classical Music in Bhatkhande script using Devanagari characters</string>
+    <string>For writing Indian Classical Music in Bhatkhande script using Gurmukhi characters</string>
     <key>openTypeNameSampleText</key>
-    <string>~#qswRwG%wMepDlNu ;'[]</string>
+    <string>su sU ml mL `@DLr@gm qsUwWrUEMU [];'’\ 1234567890</string>
     <key>openTypeOS2Panose</key>
     <array>
       <integer>2</integer>
