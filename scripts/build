@@ -3,7 +3,7 @@
 set -e
 
 # Build Ome Bhatkhande fonts for each language
-for LANG in hindi english punjabi
+for LANG in hindi english punjabi bangla
 do
     docker run --rm -v $PWD:/home/fontdev sungsit/fontforge \
         "/bin/sh" "-c" \

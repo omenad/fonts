@@ -129,8 +129,16 @@ PUNJABI.update({
     'Descriptor': 'For writing Indian Classical Music in Bhatkhande script using Gurmukhi characters',
 })
 
+BANGLA = BASE.copy()
+BANGLA.update({
+    'Family': 'Ome Bhatkhande Bangla',
+    'PostScriptName': 'OmeBhatkhandeBangla',
+    'Descriptor': 'For writing Indian Classical Music in Bhatkhande script using Bangla characters',
+})
+
 META = {
     'English': ENGLISH,
     'Hindi': HINDI,
     'Punjabi': PUNJABI,
+    'Bangla': BANGLA,
 }
