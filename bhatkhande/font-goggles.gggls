@@ -1,20 +1,20 @@
 {
   "fonts": [
     {
-      "path": "ttf/OmeBhatkhandeEnglish.ttf"
+      "path": "../ttf/OmeBhatkhandeHindi.ttf"
     },
     {
-      "path": "ttf/OmeBhatkhandeHindi.ttf"
+      "path": "../ttf/OmeBhatkhandeEnglish.ttf"
     },
     {
-      "path": "ttf/OmeBhatkhandePunjabi.ttf"
+      "path": "../ttf/OmeBhatkhandePunjabi.ttf"
     },
     {
-      "path": "ttf/OmeSwarlipi.ttf"
+      "path": "../ttf/OmeBhatkhandeBangla.ttf"
     }
   ],
   "textSettings": {
-    "text": "su sU ml mL `@DLr@gm qsUwWrUEMU [];'’\\ 1234567890",
+    "text": "su sU ml mL `@DLr@gm qsUwWrUEMU [];'’\\\\ 1234567890",
     "textFilePath": null,
     "textFileIndex": 0,
     "shouldApplyBiDi": true,
@@ -25,24 +25,24 @@
     "features": {},
     "varLocation": {},
     "relativeFontSize": 0.25,
-    "relativeHBaseline": 0.3546029281616211,
+    "relativeHBaseline": 0.4,
     "relativeVBaseline": 0.5,
-    "relativeMargin": 0.14113643646240234,
+    "relativeMargin": 0.1,
     "enableColor": true
   },
   "uiSettings": {
     "windowPosition": [
-      1920.0,
       0.0,
-      1920.0,
-      1068.0
+      0.0,
+      1470.0,
+      919.0
     ],
     "fontListItemSize": 150,
     "fontListShowFontFileName": true,
-    "characterListVisible": true,
+    "characterListVisible": false,
     "characterListSize": 98.0,
-    "glyphListVisible": true,
-    "glyphListSize": 226.0,
+    "glyphListVisible": false,
+    "glyphListSize": 117.0,
     "compileOutputVisible": false,
     "compileOutputSize": 80.0,
     "formattingOptionsVisible": true,
