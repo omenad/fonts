@@ -30,6 +30,8 @@ sidebar:
         url: /ome-bhatkhande-english/
       - title: Ome Bhatkhande Punjabi
         url: /ome-bhatkhande-punjabi/
+      - title: Ome Bhatkhande Bangla
+        url: /ome-bhatkhande-bangla/
   - title: Usage
     children:
       - title: Desktop

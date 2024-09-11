@@ -69,6 +69,12 @@ table.keymap {
     font-size: 1.5em;
     line-height: 3em;
   }
+
+  &.bhatkhande-bangla td:last-child {
+    font-family: 'ome_bhatkhande_bangla';
+    font-size: 1.5em;
+    line-height: 3em;
+  }
 }
 
 table.composition {
@@ -105,6 +111,10 @@ table.composition {
 
   &.bhatkhande-punjabi td > code {
     font-family: 'ome_bhatkhande_punjabi';
+  }
+
+  &.bhatkhande-bangla td > code {
+    font-family: 'ome_bhatkhande_bangla';
   }
 }
 
