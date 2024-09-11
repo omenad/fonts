@@ -1,3 +1,11 @@
+## 3.0.0
+
+- Add Bangla version of Bhatkhande font.
+  [#71](https://github.com/omenad/fonts/pull/71)
+  [#72](https://github.com/omenad/fonts/pull/72)
+- Pipeline builds for Bhatkhande fonts
+  [#69](https://github.com/omenad/fonts/pull/69)
+
 ## 2.3.0
 
 - Add `U`, `L` for Ati Tar and Ati Mandra in all fonts

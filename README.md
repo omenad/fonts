@@ -19,7 +19,7 @@ A notation system designed to be non-language specific, easy to learn, and very 
 
 [![bhatkhande-hindi-image][bhatkhande-hindi-image]][bhatkhande-hindi]
 
-The classical system for writing Indian Classical Music. These are available for [Hindi][bhatkhande-hindi], [English][bhatkhande-english], and [Punjabi][bhatkhande-punjabi].
+The classical system for writing Indian Classical Music. These are available for [Hindi][bhatkhande-hindi], [English][bhatkhande-english], [Punjabi][bhatkhande-punjabi], and [Bangla][bhatkhande-bangla].
 
 ## Development
 
@@ -40,11 +40,12 @@ Add a new URL to rajada.in for the release.
 Make a `docs/$TAG` branch and update all references for downloading it. Merge to `master`.
 
 [docs]: https://omenad.github.io/fonts/
-[download]: https://rajada.in/omenadfonts230
+[download]: https://rajada.in/omenadfonts300
 [swarlipi]: https://omenad.github.io/fonts/ome-swarlipi/
 [swarlipi-image]: https://omenad.github.io/fonts/assets/images/ome-swarlipi-thumbnail.jpg
 [bhatkhande-hindi]: https://omenad.github.io/fonts/ome-bhatkhande-hindi/
 [bhatkhande-hindi-image]: https://omenad.github.io/fonts/assets/images/ome-bhatkhande-hindi-thumbnail.jpg
 [bhatkhande-english]: https://omenad.github.io/fonts/ome-bhatkhande-english/
 [bhatkhande-punjabi]: https://omenad.github.io/fonts/ome-bhatkhande-punjabi/
+[bhatkhande-bangla]: https://omenad.github.io/fonts/ome-bhatkhande-bangla/
 [fontforge]: https://fontforge.org/en-US/

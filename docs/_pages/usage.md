@@ -32,7 +32,7 @@ For usage on the web, add the following block to the `<head>` section:
 <link rel="stylesheet" href="https://webfonts.omenad.net/fonts.css">
 ```
 
-You can then use the [`.ome-swarlipi`](/fonts/ome-swarlipi), [`.ome-bhatkhande-hindi`](/fonts/ome-bhatkhande-hindi), [`.ome-bhatkhande-english`](/fonts/ome-bhatkhande-english), or [`.ome-bhatkhande-punjabi`](/fonts/ome-bhatkhande-punjabi) CSS classes to render in the respective font.
+You can then use the [`.ome-swarlipi`](/fonts/ome-swarlipi), [`.ome-bhatkhande-hindi`](/fonts/ome-bhatkhande-hindi), [`.ome-bhatkhande-english`](/fonts/ome-bhatkhande-english), [`.ome-bhatkhande-punjabi`](/fonts/ome-bhatkhande-punjabi), or [`.ome-bhatkhande-bangla`](/fonts/ome-bhatkhande-bangla) CSS classes to render in the respective font.
 
 ## License
 
