@@ -5,7 +5,7 @@ main:
   # - title: "History"
   #   url: /history/
   - title: Download
-    url: https://rajada.in/omenadfonts230
+    url: https://rajada.in/omenadfonts300
   - title: "GitHub"
     url: https://github.com/omenad/fonts
   - title: "Omenad"
@@ -41,10 +41,10 @@ sidebar:
       - title: Apps
         url: /usage/#apps
   - title: Download
-    url: https://rajada.in/omenadfonts230
+    url: https://rajada.in/omenadfonts300
     children:
       - title: Download
-        url: https://rajada.in/omenadfonts230
+        url: https://rajada.in/omenadfonts300
   - title: Resources
     children:
       - title: GitHub
