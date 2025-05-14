@@ -168,22 +168,24 @@ Krintan is Kan repeated twice, thrice, four times in a single stroke of the Mizr
 ## Miscellaneous
 
 {:.keymap.bhatkhande-punjabi}
-| Type      | Key | Bhatkhande |
-|-----------|-----|------------|
-| Sam       | `x` | x          |
-| Long Dash | `_` | _          |
-| Comma     | `,` | ,          |
-| Plus      | `+` | +          |
-| 0         | `0` | 0          |
-| 1         | `1` | 1          |
-| 2         | `2` | 2          |
-| 3         | `3` | 3          |
-| 4         | `4` | 4          |
-| 5         | `5` | 5          |
-| 6         | `6` | 6          |
-| 7         | `7` | 7          |
-| 8         | `8` | 8          |
-| 9         | `9` | 9          |
+| Type                   | Key | Bhatkhande |
+|------------------------|-----|------------|
+| Sam                    | `x` | x          |
+| Long Dash              | `_` | _          |
+| Comma                  | `,` | ,          |
+| Plus                   | `+` | +          |
+| Short Vertical Divider | `a` | a          |
+| Long Vertical Divider  | `A` | A          |
+| 0                      | `0` | 0          |
+| 1                      | `1` | 1          |
+| 2                      | `2` | 2          |
+| 3                      | `3` | 3          |
+| 4                      | `4` | 4          |
+| 5                      | `5` | 5          |
+| 6                      | `6` | 6          |
+| 7                      | `7` | 7          |
+| 8                      | `8` | 8          |
+| 9                      | `9` | 9          |
 
 # Layout
 
