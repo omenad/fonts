@@ -2,4 +2,12 @@
 <glyph name="a" format="1">
   <advance width="1582"/>
   <unicode hex="0061"/>
+  <outline>
+    <contour>
+      <point x="879" y="-658" type="line"/>
+      <point x="703" y="-471" type="line"/>
+      <point x="703" y="1934" type="line"/>
+      <point x="879" y="1768" type="line"/>
+    </contour>
+  </outline>
 </glyph>
