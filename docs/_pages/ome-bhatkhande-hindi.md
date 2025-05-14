@@ -194,13 +194,15 @@ Krintan is Kan repeated twice, thrice, four times in a single stroke of the Mizr
 <div class="horizontal-scroll-block" markdown="block">
 
 {:.composition.bhatkhande-hindi}
-|||`g  @pp g  p `|`-  @nn d  n `|
-|||`[  \ [  ] `|`-  \ [  ] `|
-|`su  -  d  n `|`su  ru  su  - `|`su  @gugu @gugu @mumu`|`ru  @rusu @-su d `|
-|`[  -  [  ] `|`[  ]  [  - `|`[  \ \ \`|`[  @'[ @-' [`|
-|`p  @mm @gg @mm`|`r  @rs @-s s `|||
-|`[  \ \ \`|`[  @'[ @-' [ `|||
-|`x`|`2`|`0`|`3`|
+<pre>
+            A            A g  @pp g  p  A -  @nn d  n 
+            A            A [  \ [  ]  A -  \ [  ] 
+su  -  d  n  A su  ru  su  - A su  @gugu @gugu @mumu A ru  @rusu @-su d 
+[  -  [  ]  A [  ]  [  - A [  \ \ \ A [  @'[ @-' [
+p  @mm @gg @mm A r  @rs @-s s A             A
+[  \ \ \ A [  @'[ @-' [ A             A
+x           A 2          A 0           A 3
+</pre>
 
 </div>
 
@@ -243,75 +245,35 @@ You can then use the `.ome-bhatkhande-hindi` class on any element to use the fon
 
 It is recommended to use `<pre>` or `<code>` to preserve whitespace in the compositions.
 
-For writing a full composition as shown above, a table is required, for example:
+For writing a full composition as shown above, use the following:
 
 ```html
-<table class="composition bhatkhande-hindi">
-  <tbody>
-    <tr>
-      <td></td>
-      <td></td>
-      <td><code>g  @pp g  p </code></td>
-      <td><code>-  @nn d  n </code></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td></td>
-      <td><code>[  \ [  ] </code></td>
-      <td><code>-  \ [  ] </code></td>
-    </tr>
-    <tr>
-      <td><code>su  -  d  n </code></td>
-      <td><code>su  ru  su  - </code></td>
-      <td><code>su  @gugu @gugu @mumu</code></td>
-      <td><code>ru  @rusu @-su d </code></td>
-    </tr>
-    <tr>
-      <td><code>[  -  [  ] </code></td>
-      <td><code>[  ]  [  - </code></td>
-      <td><code>[  \ \ \</code></td>
-      <td><code>[  @'[ @-' [</code></td>
-    </tr>
-    <tr>
-      <td><code>p  @mm @gg @mm</code></td>
-      <td><code>r  @rs @-s s </code></td>
-      <td></td>
-      <td></td>
-    </tr>
-    <tr>
-      <td><code>[  \ \ \</code></td>
-      <td><code>[  @'[ @-' [ </code></td>
-      <td></td>
-      <td></td>
-    </tr>
-    <tr>
-      <td><code>x</code></td>
-      <td><code>2</code></td>
-      <td><code>0</code></td>
-      <td><code>3</code></td>
-    </tr>
-  </tbody>
-</table>
+<pre class="composition bhatkhande-hindi">
+            A            A g  @pp g  p  A -  @nn d  n 
+            A            A [  \ [  ]  A -  \ [  ] 
+su  -  d  n  A su  ru  su  - A su  @gugu @gugu @mumu A ru  @rusu @-su d 
+[  -  [  ]  A [  ]  [  - A [  \ \ \ A [  @'[ @-' [
+p  @mm @gg @mm A r  @rs @-s s A             A
+[  \ \ \ A [  @'[ @-' [ A             A
+x           A 2          A 0           A 3
+</pre>
 ```
 
 with additional styling provided by:
 
 ```css
-table.composition {
+pre.composition {
+  background: none;
   border: none;
+  box-shadow: none;
+
+  font-size: 1.5rem;
+  line-height: 4.0rem;
+
+  white-space: pre;
 }
 
-table.composition td {
-  width: 25%;
-  border: none;
-  border-right: 1px solid black;
-}
-
-table.composition td:last-child {
-  border-right: none;
-}
-
-table.composition.bhatkhande-hindi td > code {
+pre.composition.bhatkhande-hindi {
   white-space: pre;
   font-family: 'ome_bhatkhande_hindi';
 }
