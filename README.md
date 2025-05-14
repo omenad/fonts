@@ -40,7 +40,7 @@ Add a new URL to rajada.in for the release.
 Make a `docs/$TAG` branch and update all references for downloading it. Merge to `master`.
 
 [docs]: https://omenad.github.io/fonts/
-[download]: https://rajada.in/omenadfonts300
+[download]: https://rajada.in/omenadfonts310
 [swarlipi]: https://omenad.github.io/fonts/ome-swarlipi/
 [swarlipi-image]: https://omenad.github.io/fonts/assets/images/ome-swarlipi-thumbnail.jpg
 [bhatkhande-hindi]: https://omenad.github.io/fonts/ome-bhatkhande-hindi/

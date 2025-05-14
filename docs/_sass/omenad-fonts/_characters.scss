@@ -3,3 +3,30 @@
   font-size: 1.4em;
   line-height: 1.6em;
 }
+
+pre.composition {
+  background: none;
+  border: none;
+  box-shadow: none;
+
+  font-size: 1.5rem;
+  line-height: 4.0rem;
+
+  white-space: pre;
+
+  &.bhatkhande-hindi {
+    font-family: 'ome_bhatkhande_hindi';
+  }
+
+  &.bhatkhande-english {
+    font-family: 'ome_bhatkhande_english';
+  }
+
+  &.bhatkhande-punjabi {
+    font-family: 'ome_bhatkhande_punjabi';
+  }
+
+  &.bhatkhande-bangla {
+    font-family: 'ome_bhatkhande_bangla';
+  }
+}

@@ -1,3 +1,8 @@
+## 3.1.0
+
+- Add `a`, `A` as vertical dividers for Bhatkhande fonts.
+  [#74](https://github.com/omenad/fonts/pull/74)
+
 ## 3.0.0
 
 - Add Bangla version of Bhatkhande font.
